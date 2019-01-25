@@ -2,6 +2,7 @@ module.exports = {
   extends: 'airbnb',
   env: {
     browser: true,
+    jest: true,
   },
   plugins: ['react', 'lodash', 'jsx-a11y', 'import'],
   parserOptions: {
