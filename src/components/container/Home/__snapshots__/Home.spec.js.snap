@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="main-head"
+>
+  <h2>
+    “Directors of the Theater of Belarus„
+  </h2>
+</div>
+`;
