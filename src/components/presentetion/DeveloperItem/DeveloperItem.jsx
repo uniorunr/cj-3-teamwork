@@ -1,13 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import './DeveloperItem.css';
 
-const DeveloperItem = () => (
+const DeveloperItem = ({ img, name }) => (
   <div className="developer-item">
-    <img
-      src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
-      alt=""
-    />
-    <p>Developer</p>
+    <img src={img} alt={name} />
+    <p>{name}</p>
   </div>
 );
+
+DeveloperItem.propTypes = {
+  img: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+};
 
 export default DeveloperItem;
