@@ -7,7 +7,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <MemoryRouter>
-        <NavBarItem hash="/" name="Home" />
+        <NavBarItem id="home" hash="/" onClick={() => {}} name="Home" />
       </MemoryRouter>,
     )
     .toJSON();
