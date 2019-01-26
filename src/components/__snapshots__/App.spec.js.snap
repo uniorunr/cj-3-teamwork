@@ -78,44 +78,44 @@ exports[`renders correctly 1`] = `
           className="developer-item"
         >
           <img
-            alt=""
-            src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
+            alt="rick42morty"
+            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
           />
           <p>
-            Developer
+            rick42morty
           </p>
         </div>
         <div
           className="developer-item"
         >
           <img
-            alt=""
-            src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
+            alt="uniorunr"
+            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
           />
           <p>
-            Developer
+            uniorunr
           </p>
         </div>
         <div
           className="developer-item"
         >
           <img
-            alt=""
-            src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
+            alt="Frol8612"
+            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
           />
           <p>
-            Developer
+            Frol8612
           </p>
         </div>
         <div
           className="developer-item"
         >
           <img
-            alt=""
-            src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
+            alt="loori-r"
+            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
           />
           <p>
-            Developer
+            loori-r
           </p>
         </div>
       </div>
