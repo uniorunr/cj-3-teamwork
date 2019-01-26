@@ -3,7 +3,7 @@ import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import PropTypes from 'prop-types';
 
 const TimeLine = ({ content }) => (
-  <Timeline lineColor="#ddd">
+  <Timeline lineColor="#dddddd">
     {
         content.items.map(item => (
           <TimelineItem
