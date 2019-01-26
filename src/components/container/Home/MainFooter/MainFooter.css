@@ -4,7 +4,8 @@
 }
 
 .main-footer h2 {
-  margin-bottom: 25px;
+  font-size: 18px;
+  margin: 15px 0 25px;
 }
 
 .main-footer .developer-container {
