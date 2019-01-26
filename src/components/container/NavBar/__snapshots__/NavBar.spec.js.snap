@@ -4,37 +4,28 @@ exports[`renders correctly 1`] = `
 <div
   className="navbar-container"
 >
-  <div
-    className="header-logo"
-  >
-    <h1>
-      Director
-    </h1>
-  </div>
   <nav>
     <ul>
-      <li>
+      <li
+        className="active"
+      >
         <a
           href="/"
+          id="home"
           onClick={[Function]}
         >
-          Home
+          главная
         </a>
       </li>
-      <li>
+      <li
+        className="not-active"
+      >
         <a
-          href="/about"
+          href="/list"
+          id="list"
           onClick={[Function]}
         >
-          About
-        </a>
-      </li>
-      <li>
-        <a
-          href="/users"
-          onClick={[Function]}
-        >
-          Users
+          список режиссеров
         </a>
       </li>
     </ul>
