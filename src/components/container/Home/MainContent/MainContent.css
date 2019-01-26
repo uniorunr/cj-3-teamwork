@@ -7,7 +7,7 @@
   position: absolute;
   content: '';
   height: 95%;
-  width: 1px;
+  width: 2px;
   background-color: #000;
   top: 50%;
   transform: translateY(-50%);
@@ -17,7 +17,7 @@
 .main-content::before {
   position: absolute;
   content: '';
-  height: 1px;
+  height: 2px;
   width: 95%;
   background-color: #000;
   left: 50%;
