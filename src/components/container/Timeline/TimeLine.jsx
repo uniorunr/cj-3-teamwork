@@ -10,7 +10,7 @@ const TimeLine = ({ content }) => (
             key={`${item.date}`}
             dateInnerStyle={{ background: '#000000', color: '#ffffff' }}
             dateText={`${item.date.charAt(0).toLowerCase()}${item.date.slice(1)}`}
-            style={{ color: 'black' }}
+            style={{ color: '#000000' }}
           >
             <h3>{`${item.title.charAt(0).toUpperCase()}${item.title.slice(1)}`}</h3>
           </TimelineItem>
