@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import MainContent from './MainContent/MainContent';
+import MainFooter from './MainFooter/MainFooter';
 import './Home.css';
 
 const Home = () => (
-  <div className="main-head">
-    <h2>&ldquo;Directors of the Theater of Belarus&bdquo;</h2>
-  </div>
+  <Fragment>
+    <MainContent />
+    <MainFooter />
+  </Fragment>
 );
 
 export default Home;
