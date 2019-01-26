@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './NavBarItem.scss';
+import './NavBarItem.css';
 
 const NavBarItem = ({ hash, name }) => (
   <li>

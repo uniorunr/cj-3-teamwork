@@ -4,7 +4,6 @@ import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
 
 const About = () => <h2>About</h2>;
-const Users = () => <h2>Users</h2>;
 
 const App = () => (
   <Router>
@@ -12,7 +11,6 @@ const App = () => (
       <NavBar />
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
-      <Route path="/users/" component={Users} />
     </div>
   </Router>
 );

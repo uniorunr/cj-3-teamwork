@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBarItem from '../../presentetion/NavBarItem/NavBarItem';
-import './NavBar.scss';
+import './NavBar.css';
 
 const NavBar = () => (
   <div className="navbar-container">

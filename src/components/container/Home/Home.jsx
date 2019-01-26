@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.scss';
+import './Home.css';
 
 const Home = () => (
   <div className="main-head">
