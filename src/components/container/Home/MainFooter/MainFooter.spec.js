@@ -4,7 +4,7 @@ import MainFooter from './MainFooter';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<MainFooter />)
+    .create(<MainFooter teams={[{ name: 'a', img: 'img1' }, { name: 'b', img: 'img2' }]} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

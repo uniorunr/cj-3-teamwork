@@ -23,11 +23,13 @@ li a:hover {
 }
 .active {
   width: 75%;
+  transition: 0.3s;
 }
 
 .not-active {
   width: 25%;
   background-color: #000;
+  transition: 0.3s;
 }
 
 .not-active a {

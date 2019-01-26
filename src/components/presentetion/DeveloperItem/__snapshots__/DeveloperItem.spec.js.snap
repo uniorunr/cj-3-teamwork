@@ -5,11 +5,11 @@ exports[`renders correctly 1`] = `
   className="developer-item"
 >
   <img
-    alt=""
-    src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-64.png"
+    alt="dev"
+    src="img"
   />
   <p>
-    Developer
+    dev
   </p>
 </div>
 `;

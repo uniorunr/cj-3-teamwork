@@ -4,7 +4,7 @@ import DeveloperItem from './DeveloperItem';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<DeveloperItem />)
+    .create(<DeveloperItem img="img" name="dev" />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
