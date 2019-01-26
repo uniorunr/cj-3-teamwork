@@ -56,9 +56,10 @@
 }
 
 .main-content .main-director-info img {
-  width: 70%;
+  width: 50%;
 }
 
 .main-content .main-director-info p {
+  width: 70%;
   font-size: 14px;
 }
