@@ -3,24 +3,30 @@ import ru from '../../../config/ru.json';
 import './ListDirectors.css';
 import TimeLine from './Timeline/TimeLine';
 import PhotoGallery from './PhotoGallery/PhotoGallery';
+import VideoOverlay from './VideoOverlay/VideoOverlay';
+import GeoWidget from './GeoWidget/GeoWidget';
+import SearchByList from './SearchByList/CardDirector';
 
 const ListDirectors = () => {
   const {
     name,
-    photo,
-    timeline: { life, work, photos },
+    place,
+    timeline: {
+      life, work, photos, video,
+    },
   } = ru.main.content[0];
 
   return (
     <div className="list-container">
       <div className="sidebar">
-        <img src={photo} alt={name} />
-        <h2>{name}</h2>
+        <SearchByList directors={ru.main.content} />
       </div>
       <div className="scroll-timeline">
         <TimeLine content={life} />
         <PhotoGallery images={photos} />
         <TimeLine content={work} />
+        <VideoOverlay video={video} />
+        <GeoWidget mapSource={place} name={name} />
       </div>
     </div>
   );
