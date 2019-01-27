@@ -1,0 +1,14 @@
+.video-overlay-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.video-play-button {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: solid #000 4px;
+  padding: 2% 5%;
+  margin: 2% 0 5%;
+}
