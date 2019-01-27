@@ -65,6 +65,7 @@
     "react-images": "^0.5.19",
     "react-photo-gallery": "^6.3.0",
     "react-router-dom": "^4.3.1",
+    "uniqid": "^5.0.3",
     "vertical-timeline-component-for-react": "^1.0.6"
   },
   "jest": {

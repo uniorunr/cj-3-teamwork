@@ -8,7 +8,7 @@ const ListDirectors = () => {
   const {
     name,
     photo,
-    timeline: { life, photos },
+    timeline: { life, work, photos },
   } = ru.main.content[0];
 
   return (
@@ -20,6 +20,7 @@ const ListDirectors = () => {
       <div className="scroll-timeline">
         <TimeLine content={life} />
         <PhotoGallery images={photos} />
+        <TimeLine content={work} />
       </div>
     </div>
   );
