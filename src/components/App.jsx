@@ -4,15 +4,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
 import ListDirectors from './container/ListDirectors/ListDirectors';
+import SwitchLang from './container/SwitchLang/SwitchLang';
 import './App.css';
 
 class App extends Component {
   state = {
-    teams: [
-      { name: 'rick42morty' },
-      { name: 'uniorunr' },
-      { name: 'Frol8612' },
-      { name: 'loori-r' }],
+    teams: [{ name: 'rick42morty' }, { name: 'uniorunr' }, { name: 'Frol8612' }, { name: 'loori-r' }],
     index: 0,
   };
 
@@ -48,6 +45,7 @@ class App extends Component {
             <Route path="/" exact render={() => <Home teams={teams} index={index} />} />
             <Route path="/list" component={ListDirectors} />
           </div>
+          <SwitchLang />
         </div>
       </Router>
     );
