@@ -24,6 +24,7 @@ li a:hover {
 .active {
   width: 75%;
   transition: 0.3s;
+  border: solid #000 1px;
 }
 
 .not-active {
