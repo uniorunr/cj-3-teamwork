@@ -1,5 +1,6 @@
 import React from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import uniqid from 'uniqid';
 import PropTypes from 'prop-types';
 
 const TimeLine = ({ content }) => (
@@ -7,7 +8,7 @@ const TimeLine = ({ content }) => (
     {
         content.map(item => (
           <TimelineItem
-            key={`${item.date}`}
+            key={`${uniqid()}`}
             dateInnerStyle={{ background: '#000000', color: '#ffffff' }}
             dateText={`${item.date.charAt(0).toLowerCase()}${item.date.slice(1)}`}
             style={{ color: '#000000' }}
