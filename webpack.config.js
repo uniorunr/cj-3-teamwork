@@ -8,12 +8,14 @@ const config = {
   output: {
     filename: 'build.js',
     path: path.join(__dirname, '/dist'),
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
     overlay: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [

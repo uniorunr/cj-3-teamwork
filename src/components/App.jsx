@@ -3,9 +3,8 @@ import _ from 'lodash';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
+import ListDirectors from './container/ListDirectors/ListDirectors';
 import './App.css';
-
-const About = () => <h2>About</h2>;
 
 class App extends Component {
   state = {
@@ -38,7 +37,7 @@ class App extends Component {
           <NavBar />
           <div className="main-container">
             <Route path="/" exact render={() => <Home teams={teams} />} />
-            <Route path="/list/" component={About} />
+            <Route path="/list" component={ListDirectors} />
           </div>
         </div>
       </Router>

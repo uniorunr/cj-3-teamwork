@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const TimeLine = ({ content }) => (
   <Timeline lineColor="#dddddd">
     {
-        content.items.map(item => (
+        content.map(item => (
           <TimelineItem
             key={`${item.date}`}
             dateInnerStyle={{ background: '#000000', color: '#ffffff' }}
@@ -20,7 +20,16 @@ const TimeLine = ({ content }) => (
 );
 
 TimeLine.propTypes = {
-  content: PropTypes.instanceOf(Object).isRequired,
+  content: PropTypes.arrayOf(
+    PropTypes.shape({
+      date: PropTypes.string,
+      title: PropTypes.string,
+    }),
+  ),
+};
+
+TimeLine.defaultProps = {
+  content: 'teams',
 };
 
 export default TimeLine;
