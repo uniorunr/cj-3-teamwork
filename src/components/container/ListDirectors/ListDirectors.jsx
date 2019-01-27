@@ -1,5 +1,5 @@
 import React from 'react';
-import ru from '../../../config/ru.json';
+import PropTypes from 'prop-types';
 import './ListDirectors.css';
 import TimeLine from './Timeline/TimeLine';
 import PhotoGallery from './PhotoGallery/PhotoGallery';
@@ -7,19 +7,19 @@ import VideoOverlay from './VideoOverlay/VideoOverlay';
 import GeoWidget from './GeoWidget/GeoWidget';
 import SearchByList from './SearchByList/CardDirector';
 
-const ListDirectors = () => {
+const ListDirectors = ({ lang }) => {
   const {
     name,
     place,
     timeline: {
       life, work, photos, video,
     },
-  } = ru.main.content[0];
+  } = lang.main.content[0];
 
   return (
     <div className="list-container">
       <div className="sidebar">
-        <SearchByList directors={ru.main.content} />
+        <SearchByList directors={lang.main.content} />
       </div>
       <div className="scroll-timeline">
         <TimeLine content={life} />
@@ -30,6 +30,10 @@ const ListDirectors = () => {
       </div>
     </div>
   );
+};
+
+ListDirectors.propTypes = {
+  lang: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default ListDirectors;

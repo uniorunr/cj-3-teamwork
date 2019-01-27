@@ -5,17 +5,13 @@ import 'react-modal-video/css/modal-video.min.css';
 import './VideoOverlay.css';
 
 class VideoOverlay extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.openModal = this.openModal.bind(this);
-  }
+  state = {
+    isOpen: false,
+  };
 
-  openModal() {
+  openModal = () => {
     this.setState({ isOpen: true });
-  }
+  };
 
   render() {
     const { video } = this.props;
@@ -28,16 +24,16 @@ class VideoOverlay extends Component {
           videoId={video[0]}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button className="video-play-button" type="button" onClick={this.openModal}>Просмотреть видео</button>
+        <button className="video-play-button" type="button" onClick={this.openModal}>
+          Просмотреть видео
+        </button>
       </div>
     );
   }
 }
 
 VideoOverlay.propTypes = {
-  video: PropTypes.arrayOf(
-    PropTypes.string,
-  ),
+  video: PropTypes.arrayOf(PropTypes.string),
 };
 
 VideoOverlay.defaultProps = {

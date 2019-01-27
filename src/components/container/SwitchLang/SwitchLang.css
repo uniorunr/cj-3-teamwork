@@ -5,8 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  bottom: 70px;
-  right: 0;
+  bottom: 40px;
+  right: 10px;
   background-color: #fff;
-  border: 1px solid #000;
 }

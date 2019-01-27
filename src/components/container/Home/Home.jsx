@@ -4,10 +4,10 @@ import MainContent from './MainContent/MainContent';
 import MainFooter from './MainFooter/MainFooter';
 import './Home.css';
 
-const Home = ({ teams, index }) => (
+const Home = ({ teams, index, lang }) => (
   <Fragment>
-    <MainContent index={index} />
-    <MainFooter teams={teams} />
+    <MainContent index={index} lang={lang} />
+    <MainFooter teams={teams} lang={lang} />
   </Fragment>
 );
 
@@ -18,6 +18,7 @@ Home.propTypes = {
       img: PropTypes.string,
     }),
   ),
+  lang: PropTypes.instanceOf(Object).isRequired,
   index: PropTypes.number.isRequired,
 };
 

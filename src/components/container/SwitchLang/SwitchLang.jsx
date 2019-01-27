@@ -1,37 +1,30 @@
-import React, { Component } from 'react';
+import React from 'react';
 import uniqid from 'uniqid';
+import PropTypes from 'prop-types';
 import SwitchLangItem from '../../presentetion/SwitchLangItem/SwitchLangItem';
 import './SwitchLang.css';
 
-class SwitchLang extends Component {
-  state = {
-    flag: 'ru',
-  }
+const SwitchLang = ({ lang, onChange }) => {
+  const langName = ['ru', 'en', 'by'];
 
-  handChange = (e) => {
-    const { id } = e.target;
-    this.setState({
-      flag: id,
-    });
-  };
+  return (
+    <div className="switch-container">
+      {langName.map(item => (
+        <SwitchLangItem
+          key={uniqid()}
+          active={lang === item ? 'active-radio' : ''}
+          id={item}
+          onChange={onChange}
+          checked={lang === item}
+        />
+      ))}
+    </div>
+  );
+};
 
-  render() {
-    const lang = ['ru', 'en', 'be'];
-    const { flag } = this.state;
-    return (
-      <div className="switch-container">
-        {lang.map(item => (
-          <SwitchLangItem
-            key={uniqid()}
-            active={flag === item ? 'red' : ''}
-            id={item}
-            onChange={this.handChange}
-            checked={flag === item}
-          />
-        ))}
-      </div>
-    );
-  }
-}
+SwitchLang.propTypes = {
+  lang: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+};
 
 export default SwitchLang;

@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="main-footer"
 >
   <h2>
-    Команда разработчиков
+    not translate
   </h2>
   <div
     className="developer-container"

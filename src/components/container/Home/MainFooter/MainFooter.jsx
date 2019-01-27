@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import uniqid from 'uniqid';
-import ru from '../../../../config/ru.json';
 import DeveloperItem from '../../../presentetion/DeveloperItem/DeveloperItem';
 import './MainFooter.css';
 
-const MainFooter = ({ teams }) => (
+const MainFooter = ({ teams, lang }) => (
   <div className="main-footer">
-    <h2>{ru.footer.title}</h2>
+    <h2>{lang.footer ? lang.footer.title : 'not translate'}</h2>
     <div className="developer-container">
       {teams.map(user => (
         <DeveloperItem
@@ -27,6 +26,7 @@ MainFooter.propTypes = {
       img: PropTypes.string,
     }),
   ),
+  lang: PropTypes.instanceOf(Object).isRequired,
 };
 
 MainFooter.defaultProps = {
