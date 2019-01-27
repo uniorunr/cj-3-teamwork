@@ -4,7 +4,7 @@ import MainContent from './MainContent';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<MainContent />)
+    .create(<MainContent index={0} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
