@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'react-image-gallery/styles/css/image-gallery.css';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 import './PhotoGallery.css';
