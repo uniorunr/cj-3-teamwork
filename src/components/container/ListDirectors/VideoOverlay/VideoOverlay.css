@@ -9,6 +9,12 @@
   font-size: 18px;
   font-weight: 600;
   border: solid #000 4px;
+  outline: none;
   padding: 2% 5%;
   margin: 2% 0 5%;
+}
+
+.video-play-button:active {
+  background-color: #fff;
+  color: #000;
 }
