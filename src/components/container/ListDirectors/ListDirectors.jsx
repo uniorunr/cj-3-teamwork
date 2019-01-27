@@ -3,10 +3,12 @@ import ru from '../../../config/ru.json';
 import './ListDirectors.css';
 import TimeLine from './Timeline/TimeLine';
 import PhotoGallery from './PhotoGallery/PhotoGallery';
+import GeoWidget from './GeoWidget/GeoWidget';
 
 const ListDirectors = () => {
   const {
     name,
+    place,
     photo,
     timeline: { life, work, photos },
   } = ru.main.content[0];
@@ -21,6 +23,7 @@ const ListDirectors = () => {
         <TimeLine content={life} />
         <PhotoGallery images={photos} />
         <TimeLine content={work} />
+        <GeoWidget mapSource={place} name={name} />
       </div>
     </div>
   );
