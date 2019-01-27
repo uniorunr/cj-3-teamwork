@@ -1,5 +1,5 @@
 .main-container {
-  min-height: 90vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -17,5 +17,5 @@
 }
 
 ::-webkit-scrollbar-track {
-  border-left: 1px solid #000;
+  border: 1px solid #000;
 }
