@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ru from '../../../../config/ru.json';
 import './MainContent.css';
 
-const MainContent = () => {
+const MainContent = ({ index }) => {
   const { title, text } = ru.home;
-  const { name, description, photo } = ru.main.content[0];
+  const { name, description, photo } = ru.main.content[index];
 
   return (
     <div className="main-content">
@@ -19,6 +20,10 @@ const MainContent = () => {
       </div>
     </div>
   );
+};
+
+MainContent.propTypes = {
+  index: PropTypes.number.isRequired,
 };
 
 export default MainContent;
