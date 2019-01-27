@@ -3,13 +3,8 @@ import ru from '../../../../config/ru.json';
 import './MainContent.css';
 
 const MainContent = () => {
-  const {
-    name,
-    description,
-    foto,
-    title,
-    text,
-  } = ru.main.content[0];
+  const { title, text } = ru.home;
+  const { name, description, photo } = ru.main.content[0];
 
   return (
     <div className="main-content">
@@ -19,7 +14,7 @@ const MainContent = () => {
       </div>
       <div className="main-director-info">
         <h2>{name}</h2>
-        <img src={foto} alt={name} />
+        <img src={photo} alt={name} />
         <p>{description}</p>
       </div>
     </div>
