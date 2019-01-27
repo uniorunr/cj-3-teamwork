@@ -3,7 +3,8 @@ import _ from 'lodash';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
-import ListDirectors from './container/ListDirectors/ListDirectors';
+// import ListDirectors from './container/ListDirectors/ListDirectors'; /* TimeLine */
+import CardDirectors from './container/SearchByList/CardDirector';
 import './App.css';
 
 class App extends Component {
@@ -37,7 +38,7 @@ class App extends Component {
           <NavBar />
           <div className="main-container">
             <Route path="/" exact render={() => <Home teams={teams} />} />
-            <Route path="/list" component={ListDirectors} />
+            <Route path="/list" component={CardDirectors} />
           </div>
         </div>
       </Router>
