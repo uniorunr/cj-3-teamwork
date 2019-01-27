@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import NavBarItem from '../../presentetion/NavBarItem/NavBarItem';
-import ru from '../../../config/ru.json';
 import './NavBar.css';
 
 class NavBar extends Component {
@@ -22,6 +22,7 @@ class NavBar extends Component {
 
   render() {
     const { active } = this.state;
+    const { lang } = this.props;
     return (
       <div className="navbar-container">
         <nav>
@@ -30,14 +31,14 @@ class NavBar extends Component {
               id="home"
               active={active ? 'active' : 'not-active'}
               hash="/"
-              name={ru.navbar.home}
+              name={lang.navbar.home}
               onClick={this.handlerClickActive}
             />
             <NavBarItem
               id="list"
               active={active ? 'not-active' : 'active'}
               hash="/list"
-              name={ru.navbar.list}
+              name={lang.navbar.list}
               onClick={this.handlerClickActive}
             />
           </ul>
@@ -46,5 +47,9 @@ class NavBar extends Component {
     );
   }
 }
+
+NavBar.propTypes = {
+  lang: PropTypes.instanceOf(Object).isRequired,
+};
 
 export default NavBar;

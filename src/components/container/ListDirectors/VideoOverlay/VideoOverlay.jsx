@@ -5,17 +5,13 @@ import 'react-modal-video/css/modal-video.min.css';
 import './VideoOverlay.css';
 
 class VideoOverlay extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.openModal = this.openModal.bind(this);
-  }
+  state = {
+    isOpen: false,
+  };
 
-  openModal() {
+  openModal = () => {
     this.setState({ isOpen: true });
-  }
+  };
 
   render() {
     const { video } = this.props;

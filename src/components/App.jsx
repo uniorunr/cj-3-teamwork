@@ -4,16 +4,18 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
 import ListDirectors from './container/ListDirectors/ListDirectors';
+import SwitchLang from './container/SwitchLang/SwitchLang';
 import './App.css';
+import ru from '../config/ru.json';
+import en from '../config/en.json';
+import by from '../config/by.json';
 
 class App extends Component {
   state = {
-    teams: [
-      { name: 'rick42morty' },
-      { name: 'uniorunr' },
-      { name: 'Frol8612' },
-      { name: 'loori-r' }],
+    teams: [{ name: 'rick42morty' }, { name: 'uniorunr' }, { name: 'Frol8612' }, { name: 'loori-r' }],
     index: 0,
+    lang: { ru, en, by },
+    id: 'ru',
   };
 
   componentDidMount = async () => {
@@ -38,16 +40,26 @@ class App extends Component {
     }
   };
 
+  handChange = (e) => {
+    const { id } = e.target;
+    this.setState({
+      id,
+    });
+  };
+
   render() {
-    const { teams, index } = this.state;
+    const {
+      teams, index, lang, id,
+    } = this.state;
     return (
       <Router>
         <div className="wrapper">
-          <NavBar />
+          <NavBar lang={lang[id]} />
           <div className="main-container">
-            <Route path="/" exact render={() => <Home teams={teams} index={index} />} />
-            <Route path="/list" component={ListDirectors} />
+            <Route path="/" exact render={() => <Home teams={teams} index={index} lang={lang[id]} />} />
+            <Route path="/list" render={() => <ListDirectors lang={lang[id]} />} />
           </div>
+          <SwitchLang lang={id} onChange={this.handChange} />
         </div>
       </Router>
     );

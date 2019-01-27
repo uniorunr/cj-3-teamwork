@@ -121,5 +121,48 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
   </div>
+  <div
+    className="switch-container"
+  >
+    <label
+      className="switch-item-ru active-radio"
+      htmlFor="ru"
+    >
+      <input
+        checked={true}
+        id="ru"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      ru
+    </label>
+    <label
+      className="switch-item-en "
+      htmlFor="en"
+    >
+      <input
+        checked={false}
+        id="en"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      en
+    </label>
+    <label
+      className="switch-item-by "
+      htmlFor="by"
+    >
+      <input
+        checked={false}
+        id="by"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      by
+    </label>
+  </div>
 </div>
 `;
