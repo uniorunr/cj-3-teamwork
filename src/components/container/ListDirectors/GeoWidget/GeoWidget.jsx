@@ -5,7 +5,7 @@ import './GeoWidget.css';
 const GeoWidget = ({ name, mapSource }) => (
   <div className="geo-widget-container">
     <h2>Место основной деятельности режиссера</h2>
-    <iframe title={name} src={mapSource} width="800" height="600" frameBorder="0" allowFullscreen />
+    <iframe title={name} src={mapSource} width="800" height="600" frameBorder="0" />
   </div>
 );
 

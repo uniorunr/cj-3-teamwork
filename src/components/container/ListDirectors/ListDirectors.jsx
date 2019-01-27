@@ -5,12 +5,12 @@ import TimeLine from './Timeline/TimeLine';
 import PhotoGallery from './PhotoGallery/PhotoGallery';
 import VideoOverlay from './VideoOverlay/VideoOverlay';
 import GeoWidget from './GeoWidget/GeoWidget';
+import SearchByList from './SearchByList/CardDirector';
 
 const ListDirectors = () => {
   const {
     name,
     place,
-    photo,
     timeline: {
       life, work, photos, video,
     },
@@ -19,8 +19,7 @@ const ListDirectors = () => {
   return (
     <div className="list-container">
       <div className="sidebar">
-        <img src={photo} alt={name} />
-        <h2>{name}</h2>
+        <SearchByList directors={ru.main.content} />
       </div>
       <div className="scroll-timeline">
         <TimeLine content={life} />
