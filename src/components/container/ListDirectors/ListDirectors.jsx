@@ -3,12 +3,15 @@ import ru from '../../../config/ru.json';
 import './ListDirectors.css';
 import TimeLine from './Timeline/TimeLine';
 import PhotoGallery from './PhotoGallery/PhotoGallery';
+import VideoOverlay from './VideoOverlay/VideoOverlay';
 
 const ListDirectors = () => {
   const {
     name,
     photo,
-    timeline: { life, work, photos },
+    timeline: {
+      life, work, photos, video,
+    },
   } = ru.main.content[0];
 
   return (
@@ -21,6 +24,7 @@ const ListDirectors = () => {
         <TimeLine content={life} />
         <PhotoGallery images={photos} />
         <TimeLine content={work} />
+        <VideoOverlay video={video} />
       </div>
     </div>
   );
