@@ -9,13 +9,22 @@ import './App.css';
 
 class App extends Component {
   state = {
-    teams: [{ name: 'rick42morty' }, { name: 'uniorunr' }, { name: 'Frol8612' }, { name: 'loori-r' }],
+    teams: [
+      { name: 'rick42morty' },
+      { name: 'uniorunr' },
+      { name: 'Frol8612' },
+      { name: 'loori-r' }],
+    index: 0,
   };
 
   componentDidMount = async () => {
     const { teams } = this.state;
     await _.forEach(teams, async (user, i) => {
       await this.fetchUser(user.name, i);
+    });
+
+    this.setState({
+      index: _.random(0, 4),
     });
   };
 
@@ -31,13 +40,13 @@ class App extends Component {
   };
 
   render() {
-    const { teams } = this.state;
+    const { teams, index } = this.state;
     return (
       <Router>
         <div className="wrapper">
           <NavBar />
           <div className="main-container">
-            <Route path="/" exact render={() => <Home teams={teams} />} />
+            <Route path="/" exact render={() => <Home teams={teams} index={index} />} />
             <Route path="/list" component={CardDirectors} />
           </div>
         </div>
