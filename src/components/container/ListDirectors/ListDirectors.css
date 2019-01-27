@@ -8,9 +8,25 @@
 }
 
 .list-container .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 25%;
   height: 100%;
-  background-color: red;
+}
+
+.list-container .sidebar img {
+  width: 70%;
+  margin: 25px 0;
+}
+
+.list-container .sidebar h2 {
+  font-size: 18px;
+  text-align: center;
+  width: 70%;
+  background-color: #000;
+  color: #fff;
 }
 
 .list-container .scroll-timeline {
