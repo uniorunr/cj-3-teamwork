@@ -56,6 +56,10 @@
   padding: 15px;
 }
 
+.main-content .main-director-info h2 {
+  margin: 0 0 3%;
+}
+
 .main-content .main-director-info img {
   width: 50%;
 }
@@ -63,4 +67,5 @@
 .main-content .main-director-info p {
   width: 70%;
   font-size: 14px;
+  margin: 2% 0 0;
 }

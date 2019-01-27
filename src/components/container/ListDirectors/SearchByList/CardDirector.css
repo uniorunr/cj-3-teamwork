@@ -32,3 +32,8 @@
 .search-list-directors {
   margin-top: 25px;
 }
+
+.search-list-directors input {
+  border: solid #000 2px;
+  padding: 1% 2%;
+}
