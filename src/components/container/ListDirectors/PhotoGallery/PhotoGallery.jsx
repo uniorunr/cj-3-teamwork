@@ -36,10 +36,11 @@ class PhotoGallery extends Component {
   }
 
   render() {
-    const { images } = this.props;
+    const { images, headline } = this.props;
     const { currentImage, lightboxIsOpen } = this.state;
     return (
       <div className="photo-gallery-container">
+        <h2 className="headline-text">{headline}</h2>
         <Gallery
           photos={images}
           onClick={this.openLightbox}
@@ -59,6 +60,7 @@ class PhotoGallery extends Component {
 
 
 PhotoGallery.propTypes = {
+  headline: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(
     PropTypes.shape({
       src: PropTypes.string,

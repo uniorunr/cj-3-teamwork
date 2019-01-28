@@ -18,6 +18,14 @@ const ListDirectors = ({ lang }) => {
     },
   } = lang.main.content[0];
 
+  const {
+    biographyH,
+    worksH,
+    photoH,
+    videoH,
+    placeH,
+  } = lang.headlines;
+
   const DirectorInfo = () => (
     <div className="director-info-list--wrapper">
       <div className="director-info-list-img">
@@ -37,11 +45,11 @@ const ListDirectors = ({ lang }) => {
       </div>
       <div className="scroll-timeline">
         <DirectorInfo />
-        <TimeLine content={life} />
-        <PhotoGallery images={photos} />
-        <TimeLine content={work} />
-        <VideoOverlay video={video} />
-        <GeoWidget mapSource={place} name={name} />
+        <TimeLine content={life} headline={biographyH} />
+        <PhotoGallery images={photos} headline={photoH} />
+        <TimeLine content={work} headline={worksH} />
+        <VideoOverlay video={video} headline={videoH} />
+        <GeoWidget mapSource={place} name={name} headline={placeH} />
       </div>
     </div>
   );

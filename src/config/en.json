@@ -7,12 +7,18 @@
     "title": "Belorussian culture portal: theater directors",
     "text": "This portal is an educational project dedicated to the culture of Belarus, created for the Rolling Scopes School. Here you can find basic information about theater directors from Belarus. On the portal you can find the artist you are interested in by name or place of birth, and you can see the entire list of directors. The portal contains such information as a biography of an artist, a list of the staged performances, photos and video recordings related to the director you are interested in, and you can also see the main place of work on the map."
   },
+  "headlines": {
+    "biographyH": "Biography",
+    "worksH": "List of works",
+    "photoH": "Photo Gallery",
+    "videoH": "Watch the video",
+    "placeH": "Main Place of Work"
+  },
   "footer": {
     "title": "Developers team"
   },
   "main": {
-    "content": [
-      {
+    "content": [{
         "name": "Aleksandrovskaya Larisa Pompeevna",
         "description": "Belarusian Soviet opera singer (soprano), director, journalist and public figure. People's Artist of the USSR (1940)",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
@@ -60,8 +66,7 @@
               "title": "Died. Buried in Minsk at the Eastern cemetery."
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1951",
               "title": "Zaporozhets beyond the Danube by S. S. Gulak-Artyomovsky"
             },
@@ -118,8 +123,7 @@
               "title": "The Queen of Spades, by P. I. Tchaikovsky"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.sb.by/upload/medialibrary/d3f/d3fe6cd9626ee82429a5b1d8d1fe2578.jpg",
               "width": 3,
               "height": 2
@@ -205,8 +209,7 @@
               "title": "Died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1936",
               "title": "Aristocrats, by N.F. Pogodin (jointly with G. Ferman)"
             },
@@ -239,8 +242,7 @@
               "title": "A liar is required, by D. Psafas"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "http://www.kinolenin.ru/actors/molchanov/MolchanovPS.gif",
               "width": 3,
               "height": 4
@@ -317,8 +319,7 @@
               "title": "K.N. Sannikov died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1939",
               "title": "The Death of the Wolf, by E. L. Samuilenka"
             },
@@ -351,8 +352,7 @@
               "title": "Death of voevoda, Yu. Slovak"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/foto/sov/263153.jpg",
               "width": 2.75,
               "height": 4
@@ -420,8 +420,7 @@
               "title": "Rakhlenko died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1935",
               "title": "Life is calling, V. N. Bill-Belotserkovsky"
             },
@@ -474,8 +473,7 @@
               "title": "Stormy Year, by A. Ya. Kapler"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/album/12368/211121.jpg",
               "width": 4,
               "height": 3
@@ -536,8 +534,7 @@
               "title": "died"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1967",
               "title": "Country Murlyndiya"
             },
@@ -550,8 +547,7 @@
               "title": "War under the roofs, by A. Adamovich"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/album/13663/230212.jpg",
               "width": 4,
               "height": 3

@@ -14,7 +14,7 @@ class VideoOverlay extends Component {
   };
 
   render() {
-    const { video } = this.props;
+    const { video, headline } = this.props;
     const { isOpen } = this.state;
     return (
       <div className="video-overlay-wrapper">
@@ -24,13 +24,14 @@ class VideoOverlay extends Component {
           videoId={video[0]}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button className="video-play-button" type="button" onClick={this.openModal}>Просмотреть видео</button>
+        <button className="video-play-button" type="button" onClick={this.openModal}>{headline}</button>
       </div>
     );
   }
 }
 
 VideoOverlay.propTypes = {
+  headline: PropTypes.string.isRequired,
   video: PropTypes.arrayOf(
     PropTypes.string,
   ),
