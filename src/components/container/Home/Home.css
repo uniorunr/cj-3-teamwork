@@ -4,3 +4,9 @@
   align-items: center;
   width: 100%;
 }
+
+@media screen and (max-width: 740px) {
+  .main-content {
+    display: block;
+  }
+}

@@ -15,12 +15,14 @@ li a {
   color: #000;
   font-weight: bold;
   font-family: 'Open Sans';
+  text-align: center;
 }
 
 li a:hover {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 10px 0 #000;
 }
+
 .active {
   width: 75%;
   transition: 0.3s;
@@ -35,4 +37,10 @@ li a:hover {
 
 .not-active a {
   color: #fff;
+}
+
+@media screen and (max-width: 740px) {
+  .not-active {
+    width: 70%;
+  }
 }

@@ -43,6 +43,7 @@
 
 .main-content .main-director-text p {
   width: 75%;
+  margin-bottom: 20px;
 }
 
 .main-content .main-director-info {
@@ -68,4 +69,26 @@
   width: 70%;
   font-size: 14px;
   margin: 2% 0 0;
+}
+
+@media screen and (max-width: 740px) {
+  .main-content .main-director-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content .main-director-info {
+    width: 95%;
+    height: auto;
+    margin: 30px auto 20px;
+    border-top: 2px solid #000;
+  }
+
+  .main-content .main-director-text h2 {
+    text-align: center;
+  }
+
+  .main-content::after {
+    content: none;
+  }
 }
