@@ -11,6 +11,8 @@ const ListDirectors = ({ lang }) => {
   const {
     name,
     place,
+    photo,
+    description,
     timeline: {
       life, work, photos, video,
     },
@@ -24,12 +26,25 @@ const ListDirectors = ({ lang }) => {
     placeH,
   } = lang.headlines;
 
+  const DirectorInfo = () => (
+    <div className="director-info-list--wrapper">
+      <div className="director-info-list-img">
+        <img src={photo} alt={name} />
+      </div>
+      <div className="director-info-list-description">
+        <h2>{name}</h2>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+
   return (
     <div className="list-container">
       <div className="sidebar">
         <SearchByList directors={lang.main.content} />
       </div>
       <div className="scroll-timeline">
+        <DirectorInfo />
         <TimeLine content={life} headline={biographyH} />
         <PhotoGallery images={photos} headline={photoH} />
         <TimeLine content={work} headline={worksH} />
