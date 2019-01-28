@@ -12,7 +12,8 @@
     "worksH": "List of works",
     "photoH": "Photo Gallery",
     "videoH": "Watch the video",
-    "placeH": "Main Place of Work"
+    "placeH": "Main Place of Work",
+    "search": "Search"
   },
   "footer": {
     "title": "Developers team"
@@ -25,8 +26,7 @@
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.597006600177!2d27.558527548991645!3d53.911729037315794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf942b93f029%3A0x68dcff0ab63167c0!2z0JHQvtC70YzRiNC-0Lkg0YLQtdCw0YLRgCDQkdC10LvQsNGA0YPRgdC4!5e0!3m2!1sru!2sby!4v1548604848049",
         "bpl": "Minsk, Minsk region",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "February 2, 1904",
               "title": "born in Minsk"
             },
@@ -165,8 +165,7 @@
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "bpl": "Ivolsk, Gomel region, Buda-Koshelev",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "March 1, 1902",
               "title": "born in the village of Ivolsk (now in the Buda-Koshelevsky district of the Gomel region of Belarus) in a peasant family"
             },
@@ -284,8 +283,7 @@
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "bpl": "Rogachev, Gomel region",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "May 30, 1896",
               "title": "K.N. Sannikov was born in Rogachev (now Gomel region of Belarus)"
             },
@@ -386,8 +384,7 @@
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "bpl": "Terekhovka, Dobrush district, Gomel region",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "august 24th, 1907",
               "title": "He was born in the village of Terekhovka (now Dobrush district, Gomel region, Belarus)"
             },
@@ -513,8 +510,7 @@
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "bpl": "Odessa-Dachnaya, Kherson Province",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "1937",
               "title": "She graduated from the State Institute of Theatrical Art named after A. Lunacharsky (GITIS). Pupil M. Tarkhanov, N. Plotnikova, E. Telesheva. Immediately after graduation, she moved with her husband Oscar Gautman, appointed director of the opera house, to Minsk"
             },
