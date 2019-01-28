@@ -24,6 +24,7 @@ const ListDirectors = ({ lang }) => {
     photoH,
     videoH,
     placeH,
+    search,
   } = lang.headlines;
 
   const DirectorInfo = () => (
@@ -41,7 +42,7 @@ const ListDirectors = ({ lang }) => {
   return (
     <div className="list-container">
       <div className="sidebar">
-        <SearchByList directors={lang.main.content} />
+        <SearchByList directors={lang.main.content} headline={search} />
       </div>
       <div className="scroll-timeline">
         <DirectorInfo />

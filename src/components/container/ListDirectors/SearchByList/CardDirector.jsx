@@ -16,12 +16,12 @@ class CardDirectors extends Component {
   }
 
   render() {
-    const { directors } = this.props;
+    const { directors, headline } = this.props;
     const { searchTerm } = this.state;
     const filterList = directors.filter(createFilter(searchTerm, KEYS_TO_FILTERS));
     return (
       <div className="container-list-directors">
-        <SearchInput placeholder="Поиск" className="search-input search-list-directors" onChange={this.searchUpdated} />
+        <SearchInput placeholder={headline} className="search-input search-list-directors" onChange={this.searchUpdated} />
         {filterList.map(elem => (
           <div key={uniqid()} className="container-card-directors">
             <img src={elem.photo} alt={elem.name} />
@@ -34,6 +34,7 @@ class CardDirectors extends Component {
 }
 
 CardDirectors.propTypes = {
+  headline: PropTypes.string.isRequired,
   directors: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
