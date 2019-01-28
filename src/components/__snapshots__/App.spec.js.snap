@@ -44,10 +44,10 @@ exports[`renders correctly 1`] = `
         className="main-director-text"
       >
         <h2>
-          Что такое Lorem Ipsum?
+          Портал культуры Беларуси: Театральные режиссёры Белоруссии
         </h2>
         <p>
-          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+          Данный портал - просветительский проект, посвященный культуре Беларуси, созданный специально для Rolling Scopes School.  Тут собрана основная информация о режиссерах театра из Беларуси. На портале вы можете найти интересующего вас деятеля искусства по имени, по месту рождения или посмотреть весь список деятелей. На портале собрана такая информация, как биография деятеля, перечень поставленных спектаклей, фотографии и видеозаписи, связанные с интересующим вас режиссером, а также посмотреть на карте основное место работы. 
         </p>
       </div>
       <div
@@ -77,10 +77,14 @@ exports[`renders correctly 1`] = `
         <div
           className="developer-item"
         >
-          <img
-            alt="rick42morty"
-            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
-          />
+          <a
+            href="https://github.com/rick42morty"
+          >
+            <img
+              alt="rick42morty"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
           <p>
             rick42morty
           </p>
@@ -88,10 +92,14 @@ exports[`renders correctly 1`] = `
         <div
           className="developer-item"
         >
-          <img
-            alt="uniorunr"
-            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
-          />
+          <a
+            href="https://github.com/uniorunr"
+          >
+            <img
+              alt="uniorunr"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
           <p>
             uniorunr
           </p>
@@ -99,10 +107,14 @@ exports[`renders correctly 1`] = `
         <div
           className="developer-item"
         >
-          <img
-            alt="Frol8612"
-            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
-          />
+          <a
+            href="https://github.com/Frol8612"
+          >
+            <img
+              alt="Frol8612"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
           <p>
             Frol8612
           </p>
@@ -110,10 +122,14 @@ exports[`renders correctly 1`] = `
         <div
           className="developer-item"
         >
-          <img
-            alt="loori-r"
-            src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
-          />
+          <a
+            href="https://github.com/loori-r"
+          >
+            <img
+              alt="loori-r"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
           <p>
             loori-r
           </p>
