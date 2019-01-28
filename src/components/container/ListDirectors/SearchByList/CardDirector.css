@@ -1,34 +1,55 @@
 .container-list-directors {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 
-.container-card-directors {
+.directors-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.card-directors-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  overflow: hidden;
+  margin: 10px;
+  width: 15%;
+  padding: 5px;
 }
 
-.container-card-directors img {
-  width: 70%;
-  margin: 25px 0;
+.card-directors-item img {
+  margin-bottom: 15px;
+  height: 250px;
 }
 
 .name-card-director {
-  width: 80%;
   padding: 10px;
   background: #000;
   color: #fff;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+  border: none;
+  outline: none;
+  padding: 5px;
 }
 
 .search-list-directors {
-  margin-top: 25px;
+  width: 50%;
+  margin: 50px 0;
+  background-color: blue;
+}
+
+.search-list-directors input {
+  width: 100%;
+  padding: 10px 25px 10px;
 }
