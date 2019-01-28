@@ -12,6 +12,7 @@
   outline: none;
   padding: 2% 5%;
   margin: 2% 0 5%;
+  cursor: pointer;
 }
 
 .video-play-button:active {
