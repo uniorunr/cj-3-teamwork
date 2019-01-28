@@ -11,7 +11,11 @@ const MainFooter = ({ teams, lang }) => (
       {teams.map(user => (
         <DeveloperItem
           key={uniqid()}
-          img={user.img ? user.img : 'https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png'}
+          img={
+            user.img
+              ? user.img
+              : 'https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png'
+          }
           name={user.name}
         />
       ))}

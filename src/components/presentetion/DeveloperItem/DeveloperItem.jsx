@@ -4,7 +4,9 @@ import './DeveloperItem.css';
 
 const DeveloperItem = ({ img, name }) => (
   <div className="developer-item">
-    <img src={img} alt={name} />
+    <a href={`https://github.com/${name}`}>
+      <img src={img} alt={name} />
+    </a>
     <p>{name}</p>
   </div>
 );
