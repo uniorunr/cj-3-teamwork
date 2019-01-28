@@ -1,125 +1,126 @@
 {
   "navbar": {
     "home": "Home",
-    "list": "Stage Directors List"
+    "list": "Theater  Directors List"
   },
   "home": {
-    "title": "What is Lorem Ipsum?",
-    "text": "English Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
+    "title": "Belorussian culture portal: theater directors",
+    "text": "This portal is an educational project dedicated to the culture of Belarus, created for the Rolling Scopes School. Here you can find basic information about theater directors from Belarus. On the portal you can find the artist you are interested in by name or place of birth, and you can see the entire list of directors. The portal contains such information as a biography of an artist, a list of the staged performances, photos and video recordings related to the director you are interested in, and you can also see the main place of work on the map."
   },
   "headlines": {
-    "biographyH": "Биография",
-    "worksH": "Список произведений",
-    "photoH": "Фотогалерея",
-    "videoH": "Посмотреть видео",
-    "placeH": "Место основной деятельности"
+    "biographyH": "Biography",
+    "worksH": "List of works",
+    "photoH": "Photo Gallery",
+    "videoH": "Watch the video",
+    "placeH": "Main Place of Work"
   },
   "footer": {
-    "title": "Команда разработчиков"
+    "title": "Developers team"
   },
   "main": {
     "content": [{
         "name": "Aleksandrovskaya Larisa Pompeevna",
-        "description": "Белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель. Народная артистка СССР (1940)",
+        "description": "Belarusian Soviet opera singer (soprano), director, journalist and public figure. People's Artist of the USSR (1940)",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.597006600177!2d27.558527548991645!3d53.911729037315794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf942b93f029%3A0x68dcff0ab63167c0!2z0JHQvtC70YzRiNC-0Lkg0YLQtdCw0YLRgCDQkdC10LvQsNGA0YPRgdC4!5e0!3m2!1sru!2sby!4v1548604848049",
         "timeline": {
-          "life": [{
-              "date": "2 февраля в 1904",
-              "title": "pодилась в Минске"
+          "life": [
+            {
+              "date": "February 2, 1904",
+              "title": "born in Minsk"
             },
             {
-              "date": "с 1920 года",
-              "title": "Начала выступать в труппе театра Главполитпросвета Западного фронта, как певица"
+              "date": "since 1920",
+              "title": "Started performing in the troupe of the Main Front theater of the Western Front as a singer."
             },
             {
-              "date": "в 1924—1928 годах",
-              "title": "училась в Минском музыкальном техникуме"
+              "date": "1924—1928",
+              "title": "studied at the Minsk musical technical school"
             },
             {
-              "date": "в 1927 году",
-              "title": "Исполняла белорусские народные песни на Международной музыкальной выставке во Франкфурте-на-Майне (Германия)"
+              "date": "1927",
+              "title": "Performed Belarusian folk songs at the International Music Fair in Frankfurt am Main (Germany)"
             },
             {
-              "date": "в 1930—1933 годах",
-              "title": "Занималась в Государственной студии оперы и балета (Минск)"
+              "date": "1930—1933",
+              "title": "Engaged in the State Studio of Opera and Ballet (Minsk)"
             },
             {
-              "date": "с 1933 года",
-              "title": "Солистка Белорусского театра оперы и балета в Минске. Исполняла как сопрановые, так и меццо-сопрановые партии"
+              "date": "since 1933",
+              "title": "Soloist of the Belarusian Opera and Ballet Theater in Minsk. Performed both soprano and mezzo-soprano parts"
             },
             {
-              "date": "Военные годы",
-              "title": "Выступала с концертами на фронтах, в госпиталях и в партизанских отрядах."
+              "date": "War years",
+              "title": "She has performed with concerts on the fronts, in hospitals and in partisan detachments."
             },
             {
-              "date": "в 1951—1960 годах",
-              "title": "Была одновременно и главным режиссёром Белорусского театра оперы и балета. В год ей удавалось выпускать по два премьерных спектакля."
+              "date": "1951—1960",
+              "title": "He was also the main director of the Belarusian Opera and Ballet Theater. In the year she managed to produce two premiere performances."
             },
             {
-              "date": "в 1950—1970-е годы",
-              "title": "Выступала с публицистическими статьями"
+              "date": "1950—1970",
+              "title": "Performed with journalistic articles."
             },
             {
-              "date": "23 мая 1980 года",
-              "title": "Умерла. Похоронена в Минске на Восточном кладбище."
+              "date": "May 23, 1980",
+              "title": "Died. Buried in Minsk at the Eastern cemetery."
             }
           ],
           "work": [{
               "date": "1951",
-              "title": "«Запорожец за Дунаем» С. С. Гулак-Артемовского"
+              "title": "Zaporozhets beyond the Danube by S. S. Gulak-Artyomovsky"
             },
             {
               "date": "1951",
-              "title": "«Тихий Дон» И. И. Дзержинского"
+              "title": "Quiet Don, I. I. Dzerzhinsky"
             },
             {
               "date": "1952",
-              "title": "«Страшный двор» С. Монюшко"
+              "title": "The Terrible Yard, S. Moniuszko"
             },
             {
               "date": "1952",
-              "title": "«Русалка» А. С. Даргомыжского"
+              "title": "Mermaid, A. S. Dargomyzhsky"
             },
             {
               "date": "1952",
-              "title": "«Мазепа» П. И. Чайковского"
+              "title": "Mazepa, P. I. Tchaikovsky"
             },
             {
               "date": "1953",
-              "title": "«Аида» Дж. Верди"
+              "title": "Aida, by G. Verdi"
             },
             {
               "date": "1953",
-              "title": "«Девушка из Полесья» Е. К. Тикоцкого"
+              "title": "Girl from Polesie, E. K. Tikotsky"
             },
             {
               "date": "1954",
-              "title": "«Борис Годунов» М. П. Мусоргского"
+              "title": "Boris Godunov, M. P. Mussorgsky"
             },
             {
               "date": "1954",
-              "title": "«Травиата» Дж. Верди"
+              "title": "La Traviata by G. Verdi"
             },
             {
               "date": "1955",
-              "title": "«Трубадур» Дж. Верди"
+              "title": "The Troubadour, by G. Verdi"
             },
             {
               "date": "1956",
-              "title": "«Надежда Дурова» А. В. Богатырёва"
+              "title": "Nadezhda Durova, A. V. Bogatyryov"
             },
             {
               "date": "1957",
-              "title": "«Михась Подгорный» Е. К. Тикоцкого"
+              "title": "Mihas Podgorny, by E. K. Tikotsky"
             },
             {
               "date": "1958",
-              "title": "«Ясный рассвет (белор.)русск.» А. Е. Туренкова"
+              "title": "Clear Dawn, A. E. Turenkova"
             },
             {
               "date": "1960",
-              "title": "«Пиковая дама» П. И. Чайковского"
+              "title": "The Queen of Spades, by P. I. Tchaikovsky"
             }
           ],
           "photos": [{
@@ -158,86 +159,87 @@
       },
       {
         "name": "Molchanov Pavel Stepanovich",
-        "description": "советский белорусский актёр, режиссёр. Народный артист СССР (1948)",
+        "description": "Soviet Belarusian actor, director. People's Artist of the USSR (1948)",
         "photo": "https://upload.wikimedia.org/wikipedia/ru/5/5e/%D0%9C%D0%9E%D0%9B%D0%A7%D0%90%D0%9D%D0%9E%D0%92_%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "timeline": {
-          "life": [{
-              "date": "1 марта 1902 года",
-              "title": " родился в деревне Ивольск (ныне в Буда-Кошелёвском районе Гомельской области Беларуси) в крестьянской семье"
+          "life": [
+            {
+              "date": "March 1, 1902",
+              "title": "born in the village of Ivolsk (now in the Buda-Koshelevsky district of the Gomel region of Belarus) in a peasant family"
             },
             {
-              "date": "В 1922—1926 годах",
-              "title": "учился в Белорусской драматической студии в Москве"
+              "date": "1922—1926",
+              "title": "studied at the Belarusian Drama Studio in Moscow"
             },
             {
-              "date": "В 1926—1930 и 1936—1951 годах",
-              "title": "актёр 2-го Белорусского государственного драматического театра (ныне Национальный академический драматический театр имени Якуба Коласа) в Витебске"
+              "date": "1926—1930 and 1936—1951",
+              "title": "Actor of the 2nd Belarusian State Drama Theater (now the National Academic Drama Theater named after Yakub Kolas) in Vitebsk"
             },
             {
-              "date": "В 1930—1935 годах",
-              "title": "актёр киностудии «Советская Белоруссия» (ныне «Беларусьфильм»)"
+              "date": "1930—1935",
+              "title": "actor of the film studio Sovetskaya Belorussia (now Belarusfilm)"
             },
             {
-              "date": "В 1935—1936 годах",
-              "title": "актёр Белорусского государственного ТРАМа"
+              "date": "1935—1936",
+              "title": "actor of the Belarusian State TRAM"
             },
             {
-              "date": "В 1941—1942",
-              "title": "играл в Ульяновском драматическом театре"
+              "date": "1941—1942",
+              "title": "played in the Ulyanovsk Drama Theater"
             },
             {
-              "date": "В 1944 году",
-              "title": "возглавлял фронтовую театральную бригаду"
+              "date": "1944",
+              "title": "led the front-line theater brigade"
             },
             {
-              "date": "с 1945 года",
-              "title": "Член Коммунистической партии Советского Союза"
+              "date": "since 1945",
+              "title": "Member of the Communist Party of the Soviet Union"
             },
             {
-              "date": "с 1946 года",
-              "title": "художественный руководитель 2-го Белорусского государственного драматического театра (ныне Национальный академический драматический театр имени Якуба Коласа) в Витебске"
+              "date": "since 1946",
+              "title": "artistic director of the 2nd Belarusian State Drama Theater (now the National Academic Drama Theater named after Yakub Kolas) in Vitebsk"
             },
             {
-              "date": "С 1951 года",
-              "title": "актер Белорусского драматического театра им. Я. Купалы в Минске. Был актёром разностороннего дарования, в совершенстве владел искусством перевоплощения"
+              "date": "since 1951",
+              "title": "actor of the Belarusian Drama Theater. Y. Kupala in Minsk. He was an actor of versatile talent, perfectly mastered the art of reincarnation"
             },
             {
-              "date": "24 февраля 1977 года",
-              "title": "Умер. Похоронен в Минске на Восточном кладбище"
+              "date": "February 24, 1977",
+              "title": "Died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
           "work": [{
               "date": "1936",
-              "title": "«Аристократы» Н. Ф. Погодина (совм. с Г. Ферман)"
+              "title": "Aristocrats, by N.F. Pogodin (jointly with G. Ferman)"
             },
             {
               "date": "1936",
-              "title": "Вечер белорусских водевилей: «Пинская шляхта» В. Дунина-Марцинкевича, «Павлинка» и «Примаки» Я. Купалы"
+              "title": "Evening of Belarusian vaudevilles: Pinsk gentry by V. Dunin-Martsinkevich, Pavlinka and Primaki by Y. Kupala"
             },
             {
               "date": "1937",
-              "title": "«Очная ставка» Братьев Тур и Л. Шейнина"
+              "title": "The Confrontation by Brothers T. and L. Scheinin"
             },
             {
               "date": "1939",
-              "title": "«Гибель волка» Э. Самуйлёнка"
+              "title": "The death of the wolf, E. Samuilenka"
             },
             {
               "date": "1941",
-              "title": "«Парень из нашего города» К. Симонова"
+              "title": "The guy from our city, K. Simonov"
             },
             {
               "date": "1947",
-              "title": "«Русский вопрос» К. Симонова"
+              "title": "The Russian Question, by K. Simonov"
             },
             {
               "date": "1965",
-              "title": "«Откуда грех?» А. Петрашкевича"
+              "title": "Where does sin come from?, by A. Petrashkevich"
             },
             {
               "date": "1969",
-              "title": "«Требуется лжец» Д. Псафаса"
+              "title": "A liar is required, by D. Psafas"
             }
           ],
           "photos": [{
@@ -275,78 +277,79 @@
       },
       {
         "name": "Sannikov Konstantin Nikolaevich",
-        "description": "советский театральный режиссёр, актёр и педагог. Народный артист Белорусской ССР (1949)",
+        "description": "Soviet theater director, actor and teacher. People's Artist of the Byelorussian SSR (1949)",
         "photo": "http://bdam.by/upload/iblock/d65/d654b0db90469c4917eab41de344a712.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "timeline": {
-          "life": [{
-              "date": "30 мая 1896",
-              "title": "К. Н. Санников родился года в Рогачёве (ныне Гомельской области Беларуси)"
+          "life": [
+            {
+              "date": "May 30, 1896",
+              "title": "K.N. Sannikov was born in Rogachev (now Gomel region of Belarus)"
             },
             {
-              "date": "в 1916 году",
-              "title": "Начал сценическую деятельность"
+              "date": "1916",
+              "title": "Started stage activity"
             },
             {
-              "date": "С 1926 года",
-              "title": "актёр БелАДТ имени Я. Коласа в Витебске"
+              "date": "1926",
+              "title": "actor of BelAHT named after Y. Kolas in Vitebsk"
             },
             {
-              "date": "С 1932 года",
-              "title": "руководил 3-м белорусским театром"
+              "date": "since 1932",
+              "title": "led the 3rd Belarusian Theater"
             },
             {
-              "date": "С 1937 года",
-              "title": "в БелАДТ имени Я. Купалы"
+              "date": "since 1937",
+              "title": "Y. Kupala theater"
             },
             {
-              "date": "в 1948—1952 годах",
-              "title": "его художественный руководитель"
+              "date": "1948—1952",
+              "title": "led Y. Kupala theater"
             },
             {
-              "date": "С 1947 года",
-              "title": "преподавал в БТХИ"
+              "date": "since 1947",
+              "title": "tought at Belarus State Academy of Arts"
             },
             {
-              "date": "с 1960 года",
-              "title": "стал профессором"
+              "date": "since 1960",
+              "title": "became a professor"
             },
             {
-              "date": "12 июля 1965 года",
-              "title": "К. Н. Санников умер . Похоронен в Минске на Восточном кладбище"
+              "date": "July 12, 1965",
+              "title": "K.N. Sannikov died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
           "work": [{
               "date": "1939",
-              "title": "«Гибель волка» Э. Л. Самуйлёнка"
+              "title": "The Death of the Wolf, by E. L. Samuilenka"
             },
             {
               "date": "1947",
-              "title": "«Константин Заслонов» А. И. Мовзона (Мовшензона)"
+              "title": "Konstantin Zaslonov, by A.I. Movzon (Movshenzon)"
             },
             {
               "date": "1950",
-              "title": "«Поют жаворонки» К. Крапивы"
+              "title": "The Lark Sings, by K. Krapiva"
             },
             {
               "date": "1954",
-              "title": "«Извините, пожалуйста!» А. Е. Макаёнка"
+              "title": "Excuse me, please!, A. E. Makayonok"
             },
             {
               "date": "1955",
-              "title": "«Зыковы» М. Горького"
+              "title": "Zykovs, M. Gorky"
             },
             {
               "date": "1956",
-              "title": "«На крутом повороте» К. Л. Губаревича"
+              "title": "At a sharp turn, by K. L. Gubarevich"
             },
             {
               "date": "1958",
-              "title": "«Люди и дьяволы» К. Крапивы"
+              "title": "People and Devils, K. Krapiva"
             },
             {
               "date": "1959",
-              "title": "«Смерть воеводы» Ю. Словацкого"
+              "title": "Death of voevoda, Yu. Slovak"
             }
           ],
           "photos": [{
@@ -375,98 +378,99 @@
       },
       {
         "name": "Rakhlenko Leon Gdalevich",
-        "description": "советский актёр, режиссёр, педагог. Народный артист СССР (1966)",
+        "description": "Soviet actor, director, teacher. People's Artist of the USSR (1966)",
         "photo": "https://upload.wikimedia.org/wikipedia/ru/e/eb/Rahlenko_LG.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "timeline": {
-          "life": [{
-              "date": "Относительно даты рождения Леона Рахленко источники расходятся: одни указывают 24 августа (6 сентября), другие — 23 августа (5 сентября)",
-              "title": "Он родился в селе Тереховка (ныне Добрушского района, Гомельская область, Белоруссия)"
+          "life": [
+            {
+              "date": "august 24th, 1907",
+              "title": "He was born in the village of Terekhovka (now Dobrush district, Gomel region, Belarus)"
             },
             {
-              "date": "в 1924—1927 годах",
-              "title": "учился в Ленинградском техникуме сценических искусств (ученик Л.С. Вивьена и С.Э. Радлова)"
+              "date": "1924—1927",
+              "title": "studied at the Leningrad technical school of scenic arts (student of LS Vivien and S. E. Radlov)"
             },
             {
-              "date": "В 1926—1927 годах",
-              "title": "артист и ассистент режиссёра Ленинградского рабочего театра Пролеткульта"
+              "date": "1926—1927",
+              "title": "actor and assistant director of the Leningrad workers' theater Proletkult"
             },
             {
-              "date": "В 1927—1928 годах",
-              "title": "художественный руководитель театральной рабочей студии Киевского Совета профсоюзов"
+              "date": "1927—1928",
+              "title": "Artistic Director of the Theater Workers Studio of the Kiev Council of Trade Unions"
             },
             {
-              "date": "В 1928—1929 годах",
-              "title": "художественный руководитель рабочей театральной самодеятельности текстильных фабрик в Клинцах (Брянская область)"
+              "date": "1928—1929",
+              "title": "artistic director of a working theater amateur textile factories in Klintsy (Bryansk region)"
             },
             {
-              "date": "В 1929—1981 годах",
-              "title": "актёр и режиссёр Театра им. Я. Купалы в Минске"
+              "date": "1929—1981",
+              "title": "actor and director of the Theater. Y. Kupala in Minsk"
             },
             {
-              "date": "В 1956—1958 и 1967—1969 годах",
-              "title": "художественный руководитель студии при театре"
+              "date": "1956—1958 and 1967—1969",
+              "title": "artistic director of the studio at the theater"
             },
             {
-              "date": "с 1942 года",
-              "title": "Член Коммунистической партии Советского Союза"
+              "date": "since 1942",
+              "title": "Member of the Communist Party of the Soviet Union"
             },
             {
-              "date": "9 марта 1986 года",
-              "title": "Леон Рахленко умер. Похоронен в Минске на Восточном кладбище"
+              "date": "March 9, 1986",
+              "title": "Rakhlenko died. Buried in Minsk at the Eastern Cemetery"
             }
           ],
           "work": [{
               "date": "1935",
-              "title": "«Жизнь зовет» В. Н. Билль-Белоцерковского"
+              "title": "Life is calling, V. N. Bill-Belotserkovsky"
             },
             {
               "date": "1936",
-              "title": "«Волки и овцы» А. Н. Островского"
+              "title": "Wolves and Sheep, A. N. Ostrovsky"
             },
             {
               "date": "1937",
-              "title": "«Скупой» Мольера; «Соловей» З. Бядули"
+              "title": "Miserly, by Moliere; Nightingale, by Z. Byaduli"
             },
             {
               "date": "1938",
-              "title": "«Партизаны» К. Крапивы; «Без вины виноватые» А. Н. Островского"
+              "title": "Partisans, by K. Krapiva; Guilty Without Guilt, by A. N. Ostrovsky"
             },
             {
               "date": "1939",
-              "title": "«Кто смеётся последним» К. Крапивы"
+              "title": "Who Laughs Last, by K. Krapiva"
             },
             {
               "date": "1941",
-              "title": "«В степях Украины» А. Е. Корнейчука"
+              "title": "In the steppes of Ukraine, by A. E. Korneychuk"
             },
             {
               "date": "1942",
-              "title": "«Фронт» А. Е. Корнейчука"
+              "title": "Front, by A. E. Korneychuk"
             },
             {
               "date": "1943",
-              "title": "«Русские люди» К. М. Симонова"
+              "title": "Russian people, by K. M. Simonov"
             },
             {
               "date": "1947",
-              "title": "«Глубокие корни» Д. Гоу и А. д'Юссо"
+              "title": "Deep roots, by D. Gow and A. d'Usso"
             },
             {
               "date": "1953",
-              "title": "«Коварство и любовь» Ф. Шиллера"
+              "title": "Cunning and Love, by F. Schiller"
             },
             {
               "date": "1954",
-              "title": "«Огненный мост» Б. С. Ромашова"
+              "title": "Fiery Bridge, by B.S. Romashova"
             },
             {
               "date": "1956",
-              "title": "«Кремлёвские куранты» Н. Ф. Погодина"
+              "title": "The Kremlin chimes, by N.F. Pogodin"
             },
             {
               "date": "1957",
-              "title": "«Грозовой год» А. Я. Каплера"
+              "title": "Stormy Year, by A. Ya. Kapler"
             }
           ],
           "photos": [{
@@ -500,46 +504,47 @@
       },
       {
         "name": "Brovarskaya Zinaida Ivanovna",
-        "description": "советская и белорусская актриса театра и кино, режиссёр, педагог, народная артистка Белорусской ССР (с 1967)",
+        "description": "Soviet and Belarusian theater and film actress, director, teacher, People’s Artist of the Byelorussian SSR (since 1967)",
         "photo": "https://upload.wikimedia.org/wikipedia/ru/e/e3/Brovarskaya_.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "timeline": {
-          "life": [{
-              "date": "В 1937 г.",
-              "title": "окончила Государственный институт театрального искусства имени А. В. Луначарского (ГИТИС). Ученица М. Тарханова, Н. Плотникова, Е. Телешева. Сразу после окончания института переехала с мужем Оскаром Гаутманом, назначенным директором оперного театра, в Минск"
+          "life": [
+            {
+              "date": "1937",
+              "title": "She graduated from the State Institute of Theatrical Art named after A. Lunacharsky (GITIS). Pupil M. Tarkhanov, N. Plotnikova, E. Telesheva. Immediately after graduation, she moved with her husband Oscar Gautman, appointed director of the opera house, to Minsk"
             },
             {
-              "date": "С 1938 г. до начала Великой Отечественной войны",
-              "title": "служила в 1-м Белорусском государственном драматическом театре в Минске (ныне — Национальный академический театр имени Янки Купалы)"
+              "date": "From 1938 until the beginning of the Great Patriotic War",
+              "title": "served in the 1st Belarusian State Drama Theater in Minsk (now the National Academic Theater named after Yanka Kupala)"
             },
             {
-              "date": "В 1941—1950 гг.",
-              "title": "актриса московского фронтового театра «Огонёк», театров Ашхабада, Пензы, Куйбышева"
+              "date": "1941—1950",
+              "title": "actress of the Moscow front-line theater Ogonek, theaters of Ashgabat, Penza, Kuibyshev"
             },
             {
-              "date": "После окончания войны и до смерти в 2005",
-              "title": " вновь выступала на сцене театра имени Янки Купалы в Минске, где сыграла около 100 ролей"
+              "date": "After the war and until his death in 2005",
+              "title": "again performed on the Yanka Kupala Theater Stage in Minsk, where she played about 100 roles"
             },
             {
-              "date": "В 1953—1955 и 1967—1988 гг",
-              "title": "преподавала в Белорусском театрально-художественном институте (ныне Белорусская государственная академия искусств)"
+              "date": "1953—1955 and 1967—1988",
+              "title": "taught at the Belarusian Theater and Art Institute (now the Belarusian State Academy of Arts)"
             },
             {
-              "date": "18 февраля 2005 (88 лет)",
-              "title": "умерла"
+              "date": "February 18, 2005 (88 years old)",
+              "title": "died"
             }
           ],
           "work": [{
               "date": "1967",
-              "title": "«Страна Мурлындия»"
+              "title": "Country Murlyndiya"
             },
             {
               "date": "1970",
-              "title": "«Мафин и его славная корчменка» по Э. Хогарт"
+              "title": "Mafin and his glorious korchmenka, by E. Hogarth"
             },
             {
               "date": "1978",
-              "title": "«Война под крышами» по А. Адамовичу"
+              "title": "War under the roofs, by A. Adamovich"
             }
           ],
           "photos": [{
