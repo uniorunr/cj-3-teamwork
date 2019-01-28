@@ -13,7 +13,7 @@ exports[`renders correctly 1`] = `
           className="active"
         >
           <a
-            href="/"
+            href="/cj-3-teamwork/"
             id="home"
             onClick={[Function]}
           >
@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
           className="not-active"
         >
           <a
-            href="/list"
+            href="/cj-3-teamwork/list"
             id="list"
             onClick={[Function]}
           >
