@@ -3,9 +3,12 @@ import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import uniqid from 'uniqid';
 import PropTypes from 'prop-types';
 
-const TimeLine = ({ content }) => (
-  <Timeline lineColor="#dddddd">
-    {
+const TimeLine = ({ content, headline }) => (
+  <div>
+    {' '}
+    <h2 className="headline-text">{headline}</h2>
+    <Timeline lineColor="#dddddd">
+      {
         content.map(item => (
           <TimelineItem
             key={`${uniqid()}`}
@@ -16,11 +19,13 @@ const TimeLine = ({ content }) => (
             <h3>{`${item.title.charAt(0).toUpperCase()}${item.title.slice(1)}`}</h3>
           </TimelineItem>
         ))
-    }
-  </Timeline>
+      }
+    </Timeline>
+  </div>
 );
 
 TimeLine.propTypes = {
+  headline: PropTypes.string.isRequired,
   content: PropTypes.arrayOf(
     PropTypes.shape({
       date: PropTypes.string,

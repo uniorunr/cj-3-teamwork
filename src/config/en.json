@@ -7,16 +7,24 @@
     "title": "What is Lorem Ipsum?",
     "text": "English Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
   },
+  "headlines": {
+    "biographyH": "Биография",
+    "worksH": "Список произведений",
+    "photoH": "Фотогалерея",
+    "videoH": "Посмотреть видео",
+    "placeH": "Место основной деятельности"
+  },
+  "footer": {
+    "title": "Команда разработчиков"
+  },
   "main": {
-    "content": [
-      {
+    "content": [{
         "name": "Aleksandrovskaya Larisa Pompeevna",
         "description": "Белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель. Народная артистка СССР (1940)",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.597006600177!2d27.558527548991645!3d53.911729037315794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf942b93f029%3A0x68dcff0ab63167c0!2z0JHQvtC70YzRiNC-0Lkg0YLQtdCw0YLRgCDQkdC10LvQsNGA0YPRgdC4!5e0!3m2!1sru!2sby!4v1548604848049",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "2 февраля в 1904",
               "title": "pодилась в Минске"
             },
@@ -57,8 +65,7 @@
               "title": "Умерла. Похоронена в Минске на Восточном кладбище."
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1951",
               "title": "«Запорожец за Дунаем» С. С. Гулак-Артемовского"
             },
@@ -115,8 +122,7 @@
               "title": "«Пиковая дама» П. И. Чайковского"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.sb.by/upload/medialibrary/d3f/d3fe6cd9626ee82429a5b1d8d1fe2578.jpg",
               "width": 3,
               "height": 2
@@ -156,8 +162,7 @@
         "photo": "https://upload.wikimedia.org/wikipedia/ru/5/5e/%D0%9C%D0%9E%D0%9B%D0%A7%D0%90%D0%9D%D0%9E%D0%92_%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "1 марта 1902 года",
               "title": " родился в деревне Ивольск (ныне в Буда-Кошелёвском районе Гомельской области Беларуси) в крестьянской семье"
             },
@@ -202,8 +207,7 @@
               "title": "Умер. Похоронен в Минске на Восточном кладбище"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1936",
               "title": "«Аристократы» Н. Ф. Погодина (совм. с Г. Ферман)"
             },
@@ -236,8 +240,7 @@
               "title": "«Требуется лжец» Д. Псафаса"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "http://www.kinolenin.ru/actors/molchanov/MolchanovPS.gif",
               "width": 3,
               "height": 4
@@ -276,8 +279,7 @@
         "photo": "http://bdam.by/upload/iblock/d65/d654b0db90469c4917eab41de344a712.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "30 мая 1896",
               "title": "К. Н. Санников родился года в Рогачёве (ныне Гомельской области Беларуси)"
             },
@@ -314,8 +316,7 @@
               "title": "К. Н. Санников умер . Похоронен в Минске на Восточном кладбище"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1939",
               "title": "«Гибель волка» Э. Л. Самуйлёнка"
             },
@@ -348,8 +349,7 @@
               "title": "«Смерть воеводы» Ю. Словацкого"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/foto/sov/263153.jpg",
               "width": 2.75,
               "height": 4
@@ -379,8 +379,7 @@
         "photo": "https://upload.wikimedia.org/wikipedia/ru/e/eb/Rahlenko_LG.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "Относительно даты рождения Леона Рахленко источники расходятся: одни указывают 24 августа (6 сентября), другие — 23 августа (5 сентября)",
               "title": "Он родился в селе Тереховка (ныне Добрушского района, Гомельская область, Белоруссия)"
             },
@@ -417,8 +416,7 @@
               "title": "Леон Рахленко умер. Похоронен в Минске на Восточном кладбище"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1935",
               "title": "«Жизнь зовет» В. Н. Билль-Белоцерковского"
             },
@@ -471,8 +469,7 @@
               "title": "«Грозовой год» А. Я. Каплера"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/album/12368/211121.jpg",
               "width": 4,
               "height": 3
@@ -507,8 +504,7 @@
         "photo": "https://upload.wikimedia.org/wikipedia/ru/e/e3/Brovarskaya_.jpg",
         "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
         "timeline": {
-          "life": [
-            {
+          "life": [{
               "date": "В 1937 г.",
               "title": "окончила Государственный институт театрального искусства имени А. В. Луначарского (ГИТИС). Ученица М. Тарханова, Н. Плотникова, Е. Телешева. Сразу после окончания института переехала с мужем Оскаром Гаутманом, назначенным директором оперного театра, в Минск"
             },
@@ -533,8 +529,7 @@
               "title": "умерла"
             }
           ],
-          "work": [
-            {
+          "work": [{
               "date": "1967",
               "title": "«Страна Мурлындия»"
             },
@@ -547,8 +542,7 @@
               "title": "«Война под крышами» по А. Адамовичу"
             }
           ],
-          "photos": [
-            {
+          "photos": [{
               "src": "https://www.kino-teatr.ru/acter/album/13663/230212.jpg",
               "width": 4,
               "height": 3
