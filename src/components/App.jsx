@@ -52,7 +52,7 @@ class App extends Component {
       teams, index, lang, id,
     } = this.state;
     return (
-      <Router>
+      <Router basename="/cj-3-teamwork">
         <div className="wrapper">
           <NavBar lang={lang[id]} />
           <div className="main-container">
