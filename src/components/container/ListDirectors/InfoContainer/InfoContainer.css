@@ -15,6 +15,7 @@
   border: none;
   outline: none;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .scroll-timeline .btn-close:hover {
