@@ -39,6 +39,13 @@ const config = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
       },
+      {
+        test: /htaccess/,
+        loader: 'file-loader',
+        options: {
+          name: '.[ext]',
+        },
+      },
     ],
   },
   plugins: [
