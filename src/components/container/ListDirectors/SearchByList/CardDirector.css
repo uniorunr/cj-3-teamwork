@@ -1,0 +1,55 @@
+.container-list-directors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.directors-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.card-directors-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 10px;
+  width: 15%;
+  padding: 5px;
+}
+
+.card-directors-item img {
+  margin-bottom: 15px;
+  height: 250px;
+}
+
+.name-card-director {
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search-list-directors {
+  width: 50%;
+  margin: 50px 0;
+  background-color: blue;
+}
+
+.search-list-directors input {
+  width: 100%;
+  padding: 10px 25px 10px;
+}

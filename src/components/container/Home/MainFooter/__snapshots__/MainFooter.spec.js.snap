@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="main-footer"
+>
+  <h2>
+    not translate
+  </h2>
+  <div
+    className="developer-container"
+  >
+    <div
+      className="developer-item"
+    >
+      <a
+        href="https://github.com/a"
+      >
+        <img
+          alt="a"
+          src="img1"
+        />
+      </a>
+      <p>
+        a
+      </p>
+    </div>
+    <div
+      className="developer-item"
+    >
+      <a
+        href="https://github.com/b"
+      >
+        <img
+          alt="b"
+          src="img2"
+        />
+      </a>
+      <p>
+        b
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="navbar-container"
+>
+  <nav>
+    <ul>
+      <li
+        className="active"
+      >
+        <a
+          href="/"
+          id="home"
+          onClick={[Function]}
+        >
+          главная
+        </a>
+      </li>
+      <li
+        className="not-active"
+      >
+        <a
+          href="/list"
+          id="list"
+          onClick={[Function]}
+        >
+          список режиссеров
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

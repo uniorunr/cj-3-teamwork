@@ -1,0 +1,582 @@
+{
+  "navbar": {
+    "home": "Home",
+    "list": "Theater  Directors List"
+  },
+  "home": {
+    "title": "Belorussian culture portal: theater directors",
+    "text": "This portal is an educational project dedicated to the culture of Belarus, created for the Rolling Scopes School. Here you can find basic information about theater directors from Belarus. On the portal you can find the artist you are interested in by name or place of birth, and you can see the entire list of directors. The portal contains such information as a biography of an artist, a list of the staged performances, photos and video recordings related to the director you are interested in, and you can also see the main place of work on the map."
+  },
+  "headlines": {
+    "biographyH": "Biography",
+    "worksH": "List of works",
+    "photoH": "Photo Gallery",
+    "videoH": "Watch the video",
+    "placeH": "Main Place of Work",
+    "search": "Search"
+  },
+  "footer": {
+    "title": "Developers team"
+  },
+  "main": {
+    "content": [{
+        "name": "Aleksandrovskaya Larisa Pompeevna",
+        "description": "Belarusian Soviet opera singer (soprano), director, journalist and public figure. People's Artist of the USSR (1940)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
+        "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.597006600177!2d27.558527548991645!3d53.911729037315794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf942b93f029%3A0x68dcff0ab63167c0!2z0JHQvtC70YzRiNC-0Lkg0YLQtdCw0YLRgCDQkdC10LvQsNGA0YPRgdC4!5e0!3m2!1sru!2sby!4v1548604848049",
+        "bpl": "Minsk, Minsk region",
+        "timeline": {
+          "life": [{
+              "date": "February 2, 1904",
+              "title": "born in Minsk"
+            },
+            {
+              "date": "since 1920",
+              "title": "Started performing in the troupe of the Main Front theater of the Western Front as a singer."
+            },
+            {
+              "date": "1924—1928",
+              "title": "studied at the Minsk musical technical school"
+            },
+            {
+              "date": "1927",
+              "title": "Performed Belarusian folk songs at the International Music Fair in Frankfurt am Main (Germany)"
+            },
+            {
+              "date": "1930—1933",
+              "title": "Engaged in the State Studio of Opera and Ballet (Minsk)"
+            },
+            {
+              "date": "since 1933",
+              "title": "Soloist of the Belarusian Opera and Ballet Theater in Minsk. Performed both soprano and mezzo-soprano parts"
+            },
+            {
+              "date": "War years",
+              "title": "She has performed with concerts on the fronts, in hospitals and in partisan detachments."
+            },
+            {
+              "date": "1951—1960",
+              "title": "He was also the main director of the Belarusian Opera and Ballet Theater. In the year she managed to produce two premiere performances."
+            },
+            {
+              "date": "1950—1970",
+              "title": "Performed with journalistic articles."
+            },
+            {
+              "date": "May 23, 1980",
+              "title": "Died. Buried in Minsk at the Eastern cemetery."
+            }
+          ],
+          "work": [{
+              "date": "1951",
+              "title": "Zaporozhets beyond the Danube by S. S. Gulak-Artyomovsky"
+            },
+            {
+              "date": "1951",
+              "title": "Quiet Don, I. I. Dzerzhinsky"
+            },
+            {
+              "date": "1952",
+              "title": "The Terrible Yard, S. Moniuszko"
+            },
+            {
+              "date": "1952",
+              "title": "Mermaid, A. S. Dargomyzhsky"
+            },
+            {
+              "date": "1952",
+              "title": "Mazepa, P. I. Tchaikovsky"
+            },
+            {
+              "date": "1953",
+              "title": "Aida, by G. Verdi"
+            },
+            {
+              "date": "1953",
+              "title": "Girl from Polesie, E. K. Tikotsky"
+            },
+            {
+              "date": "1954",
+              "title": "Boris Godunov, M. P. Mussorgsky"
+            },
+            {
+              "date": "1954",
+              "title": "La Traviata by G. Verdi"
+            },
+            {
+              "date": "1955",
+              "title": "The Troubadour, by G. Verdi"
+            },
+            {
+              "date": "1956",
+              "title": "Nadezhda Durova, A. V. Bogatyryov"
+            },
+            {
+              "date": "1957",
+              "title": "Mihas Podgorny, by E. K. Tikotsky"
+            },
+            {
+              "date": "1958",
+              "title": "Clear Dawn, A. E. Turenkova"
+            },
+            {
+              "date": "1960",
+              "title": "The Queen of Spades, by P. I. Tchaikovsky"
+            }
+          ],
+          "photos": [{
+              "src": "https://www.sb.by/upload/medialibrary/d3f/d3fe6cd9626ee82429a5b1d8d1fe2578.jpg",
+              "width": 3,
+              "height": 2
+            },
+            {
+              "src": "https://www.sb.by/upload/medialibrary/bc0/bc0db9c1de606f95be2f9cbab1d362fa.jpg",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://minsknews.by/wp-content/uploads/2018/03/1-copy-4.jpg",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://minsknews.by/wp-content/uploads/2018/03/3-12.jpg",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "video": [
+            "v3LC9JtorMM",
+            "KCLdY_67Q-s",
+            "ORYrVlkTZLg",
+            "nHR-jd2IKCE"
+          ]
+        }
+      },
+      {
+        "name": "Molchanov Pavel Stepanovich",
+        "description": "Soviet Belarusian actor, director. People's Artist of the USSR (1948)",
+        "photo": "https://upload.wikimedia.org/wikipedia/ru/5/5e/%D0%9C%D0%9E%D0%9B%D0%A7%D0%90%D0%9D%D0%9E%D0%92_%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB.jpg",
+        "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
+        "bpl": "Ivolsk, Gomel region, Buda-Koshelev",
+        "timeline": {
+          "life": [{
+              "date": "March 1, 1902",
+              "title": "born in the village of Ivolsk (now in the Buda-Koshelevsky district of the Gomel region of Belarus) in a peasant family"
+            },
+            {
+              "date": "1922—1926",
+              "title": "studied at the Belarusian Drama Studio in Moscow"
+            },
+            {
+              "date": "1926—1930 and 1936—1951",
+              "title": "Actor of the 2nd Belarusian State Drama Theater (now the National Academic Drama Theater named after Yakub Kolas) in Vitebsk"
+            },
+            {
+              "date": "1930—1935",
+              "title": "actor of the film studio Sovetskaya Belorussia (now Belarusfilm)"
+            },
+            {
+              "date": "1935—1936",
+              "title": "actor of the Belarusian State TRAM"
+            },
+            {
+              "date": "1941—1942",
+              "title": "played in the Ulyanovsk Drama Theater"
+            },
+            {
+              "date": "1944",
+              "title": "led the front-line theater brigade"
+            },
+            {
+              "date": "since 1945",
+              "title": "Member of the Communist Party of the Soviet Union"
+            },
+            {
+              "date": "since 1946",
+              "title": "artistic director of the 2nd Belarusian State Drama Theater (now the National Academic Drama Theater named after Yakub Kolas) in Vitebsk"
+            },
+            {
+              "date": "since 1951",
+              "title": "actor of the Belarusian Drama Theater. Y. Kupala in Minsk. He was an actor of versatile talent, perfectly mastered the art of reincarnation"
+            },
+            {
+              "date": "February 24, 1977",
+              "title": "Died. Buried in Minsk at the Eastern Cemetery"
+            }
+          ],
+          "work": [{
+              "date": "1936",
+              "title": "Aristocrats, by N.F. Pogodin (jointly with G. Ferman)"
+            },
+            {
+              "date": "1936",
+              "title": "Evening of Belarusian vaudevilles: Pinsk gentry by V. Dunin-Martsinkevich, Pavlinka and Primaki by Y. Kupala"
+            },
+            {
+              "date": "1937",
+              "title": "The Confrontation by Brothers T. and L. Scheinin"
+            },
+            {
+              "date": "1939",
+              "title": "The death of the wolf, E. Samuilenka"
+            },
+            {
+              "date": "1941",
+              "title": "The guy from our city, K. Simonov"
+            },
+            {
+              "date": "1947",
+              "title": "The Russian Question, by K. Simonov"
+            },
+            {
+              "date": "1965",
+              "title": "Where does sin come from?, by A. Petrashkevich"
+            },
+            {
+              "date": "1969",
+              "title": "A liar is required, by D. Psafas"
+            }
+          ],
+          "photos": [{
+              "src": "http://www.kinolenin.ru/actors/molchanov/MolchanovPS.gif",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/26928/541726.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/26928/66398.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/26928/660276.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/26928/601451.jpg",
+              "width": 4,
+              "height": 3
+            }
+          ],
+          "video": [
+            "ZNdrjlxg4gA",
+            "UHxd75npTow",
+            "66uSeL10Hx8"
+          ]
+        }
+      },
+      {
+        "name": "Sannikov Konstantin Nikolaevich",
+        "description": "Soviet theater director, actor and teacher. People's Artist of the Byelorussian SSR (1949)",
+        "photo": "http://bdam.by/upload/iblock/d65/d654b0db90469c4917eab41de344a712.jpg",
+        "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.4133906685947!2d30.199149215908854!3d55.1935300804075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573fb306a5103%3A0x8afb9fbeeb05a911!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INC00YDQsNC80LDRgtC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C60YPQsdCwINCa0L7Qu9Cw0YHQsA!5e0!3m2!1sru!2sby!4v1548599360827",
+        "bpl": "Rogachev, Gomel region",
+        "timeline": {
+          "life": [{
+              "date": "May 30, 1896",
+              "title": "K.N. Sannikov was born in Rogachev (now Gomel region of Belarus)"
+            },
+            {
+              "date": "1916",
+              "title": "Started stage activity"
+            },
+            {
+              "date": "1926",
+              "title": "actor of BelAHT named after Y. Kolas in Vitebsk"
+            },
+            {
+              "date": "since 1932",
+              "title": "led the 3rd Belarusian Theater"
+            },
+            {
+              "date": "since 1937",
+              "title": "Y. Kupala theater"
+            },
+            {
+              "date": "1948—1952",
+              "title": "led Y. Kupala theater"
+            },
+            {
+              "date": "since 1947",
+              "title": "tought at Belarus State Academy of Arts"
+            },
+            {
+              "date": "since 1960",
+              "title": "became a professor"
+            },
+            {
+              "date": "July 12, 1965",
+              "title": "K.N. Sannikov died. Buried in Minsk at the Eastern Cemetery"
+            }
+          ],
+          "work": [{
+              "date": "1939",
+              "title": "The Death of the Wolf, by E. L. Samuilenka"
+            },
+            {
+              "date": "1947",
+              "title": "Konstantin Zaslonov, by A.I. Movzon (Movshenzon)"
+            },
+            {
+              "date": "1950",
+              "title": "The Lark Sings, by K. Krapiva"
+            },
+            {
+              "date": "1954",
+              "title": "Excuse me, please!, A. E. Makayonok"
+            },
+            {
+              "date": "1955",
+              "title": "Zykovs, M. Gorky"
+            },
+            {
+              "date": "1956",
+              "title": "At a sharp turn, by K. L. Gubarevich"
+            },
+            {
+              "date": "1958",
+              "title": "People and Devils, K. Krapiva"
+            },
+            {
+              "date": "1959",
+              "title": "Death of voevoda, Yu. Slovak"
+            }
+          ],
+          "photos": [{
+              "src": "https://www.kino-teatr.ru/acter/foto/sov/263153.jpg",
+              "width": 2.75,
+              "height": 4
+            },
+            {
+              "src": "https://www.sb.by/images/articles/137/sannikov1.jpg",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://www.sb.by/images/articles/137/sannikov2.jpg",
+              "width": 5,
+              "height": 4
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/ru/9/9f/Sannikov_k_sm.jpg",
+              "width": 3,
+              "height": 4
+            }
+          ],
+          "video": ["TAK6NoBj2e0"]
+        }
+      },
+      {
+        "name": "Rakhlenko Leon Gdalevich",
+        "description": "Soviet actor, director, teacher. People's Artist of the USSR (1966)",
+        "photo": "https://upload.wikimedia.org/wikipedia/ru/e/eb/Rahlenko_LG.jpg",
+        "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
+        "bpl": "Terekhovka, Dobrush district, Gomel region",
+        "timeline": {
+          "life": [{
+              "date": "august 24th, 1907",
+              "title": "He was born in the village of Terekhovka (now Dobrush district, Gomel region, Belarus)"
+            },
+            {
+              "date": "1924—1927",
+              "title": "studied at the Leningrad technical school of scenic arts (student of LS Vivien and S. E. Radlov)"
+            },
+            {
+              "date": "1926—1927",
+              "title": "actor and assistant director of the Leningrad workers' theater Proletkult"
+            },
+            {
+              "date": "1927—1928",
+              "title": "Artistic Director of the Theater Workers Studio of the Kiev Council of Trade Unions"
+            },
+            {
+              "date": "1928—1929",
+              "title": "artistic director of a working theater amateur textile factories in Klintsy (Bryansk region)"
+            },
+            {
+              "date": "1929—1981",
+              "title": "actor and director of the Theater. Y. Kupala in Minsk"
+            },
+            {
+              "date": "1956—1958 and 1967—1969",
+              "title": "artistic director of the studio at the theater"
+            },
+            {
+              "date": "since 1942",
+              "title": "Member of the Communist Party of the Soviet Union"
+            },
+            {
+              "date": "March 9, 1986",
+              "title": "Rakhlenko died. Buried in Minsk at the Eastern Cemetery"
+            }
+          ],
+          "work": [{
+              "date": "1935",
+              "title": "Life is calling, V. N. Bill-Belotserkovsky"
+            },
+            {
+              "date": "1936",
+              "title": "Wolves and Sheep, A. N. Ostrovsky"
+            },
+            {
+              "date": "1937",
+              "title": "Miserly, by Moliere; Nightingale, by Z. Byaduli"
+            },
+            {
+              "date": "1938",
+              "title": "Partisans, by K. Krapiva; Guilty Without Guilt, by A. N. Ostrovsky"
+            },
+            {
+              "date": "1939",
+              "title": "Who Laughs Last, by K. Krapiva"
+            },
+            {
+              "date": "1941",
+              "title": "In the steppes of Ukraine, by A. E. Korneychuk"
+            },
+            {
+              "date": "1942",
+              "title": "Front, by A. E. Korneychuk"
+            },
+            {
+              "date": "1943",
+              "title": "Russian people, by K. M. Simonov"
+            },
+            {
+              "date": "1947",
+              "title": "Deep roots, by D. Gow and A. d'Usso"
+            },
+            {
+              "date": "1953",
+              "title": "Cunning and Love, by F. Schiller"
+            },
+            {
+              "date": "1954",
+              "title": "Fiery Bridge, by B.S. Romashova"
+            },
+            {
+              "date": "1956",
+              "title": "The Kremlin chimes, by N.F. Pogodin"
+            },
+            {
+              "date": "1957",
+              "title": "Stormy Year, by A. Ya. Kapler"
+            }
+          ],
+          "photos": [{
+              "src": "https://www.kino-teatr.ru/acter/album/12368/211121.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/12368/798139.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/12368/165754.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/12368/585779.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/12368/585784.jpg",
+              "width": 4,
+              "height": 3
+            }
+          ],
+          "video": ["kimvRGqEe-U", "F0Kw-o_s040"]
+        }
+      },
+      {
+        "name": "Brovarskaya Zinaida Ivanovna",
+        "description": "Soviet and Belarusian theater and film actress, director, teacher, People’s Artist of the Byelorussian SSR (since 1967)",
+        "photo": "https://upload.wikimedia.org/wikipedia/ru/e/e3/Brovarskaya_.jpg",
+        "place": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.7453057097587!2d27.560499015138056!3d53.900730740742546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc10e70a063%3A0x9d7aa84edc0a438d!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INCw0LrQsNC00LXQvNC40YfQtdGB0LrQuNC5INGC0LXQsNGC0YAg0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e0!3m2!1sru!2sby!4v1548606065268",
+        "bpl": "Odessa-Dachnaya, Kherson Province",
+        "timeline": {
+          "life": [{
+              "date": "1937",
+              "title": "She graduated from the State Institute of Theatrical Art named after A. Lunacharsky (GITIS). Pupil M. Tarkhanov, N. Plotnikova, E. Telesheva. Immediately after graduation, she moved with her husband Oscar Gautman, appointed director of the opera house, to Minsk"
+            },
+            {
+              "date": "From 1938 until the beginning of the Great Patriotic War",
+              "title": "served in the 1st Belarusian State Drama Theater in Minsk (now the National Academic Theater named after Yanka Kupala)"
+            },
+            {
+              "date": "1941—1950",
+              "title": "actress of the Moscow front-line theater Ogonek, theaters of Ashgabat, Penza, Kuibyshev"
+            },
+            {
+              "date": "After the war and until his death in 2005",
+              "title": "again performed on the Yanka Kupala Theater Stage in Minsk, where she played about 100 roles"
+            },
+            {
+              "date": "1953—1955 and 1967—1988",
+              "title": "taught at the Belarusian Theater and Art Institute (now the Belarusian State Academy of Arts)"
+            },
+            {
+              "date": "February 18, 2005 (88 years old)",
+              "title": "died"
+            }
+          ],
+          "work": [{
+              "date": "1967",
+              "title": "Country Murlyndiya"
+            },
+            {
+              "date": "1970",
+              "title": "Mafin and his glorious korchmenka, by E. Hogarth"
+            },
+            {
+              "date": "1978",
+              "title": "War under the roofs, by A. Adamovich"
+            }
+          ],
+          "photos": [{
+              "src": "https://www.kino-teatr.ru/acter/album/13663/230212.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/13663/230327.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/13663/230328.jpg",
+              "width": 4,
+              "height": 3
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/album/13663/76983.jpg",
+              "width": 3,
+              "height": 4
+            },
+            {
+              "src": "https://www.kino-teatr.ru/acter/foto/sov/13663.jpg",
+              "width": 3,
+              "height": 4
+            }
+          ],
+          "video": ["Doi5canYyPc"]
+        }
+      }
+    ]
+  }
+}

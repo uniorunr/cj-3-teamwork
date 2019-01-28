@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="navbar-container"
+  >
+    <nav>
+      <ul>
+        <li
+          className="active"
+        >
+          <a
+            href="/"
+            id="home"
+            onClick={[Function]}
+          >
+            главная
+          </a>
+        </li>
+        <li
+          className="not-active"
+        >
+          <a
+            href="/list"
+            id="list"
+            onClick={[Function]}
+          >
+            список режиссеров
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div
+    className="main-container"
+  >
+    <div
+      className="main-content"
+    >
+      <div
+        className="main-director-text"
+      >
+        <h2>
+          Портал культуры Беларуси: Театральные режиссёры Белоруссии
+        </h2>
+        <p>
+          Данный портал - просветительский проект, посвященный культуре Беларуси, созданный специально для Rolling Scopes School.  Тут собрана основная информация о режиссерах театра из Беларуси. На портале вы можете найти интересующего вас деятеля искусства по имени, по месту рождения или посмотреть весь список деятелей. На портале собрана такая информация, как биография деятеля, перечень поставленных спектаклей, фотографии и видеозаписи, связанные с интересующим вас режиссером, а также посмотреть на карте основное место работы. 
+        </p>
+      </div>
+      <div
+        className="main-director-info"
+      >
+        <h2>
+          Александровская Лариса Помпеевна
+        </h2>
+        <img
+          alt="Александровская Лариса Помпеевна"
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg"
+        />
+        <p>
+          Белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель. Народная артистка СССР (1940)
+        </p>
+      </div>
+    </div>
+    <div
+      className="main-footer"
+    >
+      <h2>
+        Команда разработчиков
+      </h2>
+      <div
+        className="developer-container"
+      >
+        <div
+          className="developer-item"
+        >
+          <a
+            href="https://github.com/rick42morty"
+          >
+            <img
+              alt="rick42morty"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
+          <p>
+            rick42morty
+          </p>
+        </div>
+        <div
+          className="developer-item"
+        >
+          <a
+            href="https://github.com/uniorunr"
+          >
+            <img
+              alt="uniorunr"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
+          <p>
+            uniorunr
+          </p>
+        </div>
+        <div
+          className="developer-item"
+        >
+          <a
+            href="https://github.com/Frol8612"
+          >
+            <img
+              alt="Frol8612"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
+          <p>
+            Frol8612
+          </p>
+        </div>
+        <div
+          className="developer-item"
+        >
+          <a
+            href="https://github.com/loori-r"
+          >
+            <img
+              alt="loori-r"
+              src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/user.png"
+            />
+          </a>
+          <p>
+            loori-r
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="switch-container"
+  >
+    <label
+      className="switch-item-ru active-radio"
+      htmlFor="ru"
+    >
+      <input
+        checked={true}
+        id="ru"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      ru
+    </label>
+    <label
+      className="switch-item-en "
+      htmlFor="en"
+    >
+      <input
+        checked={false}
+        id="en"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      en
+    </label>
+    <label
+      className="switch-item-by "
+      htmlFor="by"
+    >
+      <input
+        checked={false}
+        id="by"
+        name="radio"
+        onChange={[Function]}
+        type="radio"
+      />
+      by
+    </label>
+  </div>
+</div>
+`;
