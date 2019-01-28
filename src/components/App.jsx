@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from './container/NavBar/NavBar';
 import Home from './container/Home/Home';
 import ListDirectors from './container/ListDirectors/ListDirectors';
@@ -16,6 +15,8 @@ class App extends Component {
     index: 0,
     lang: { ru, en, by },
     id: 'ru',
+    active: true,
+    idNav: 'home',
   };
 
   componentDidMount = async () => {
@@ -47,21 +48,31 @@ class App extends Component {
     });
   };
 
+  handlerClickActive = (e) => {
+    const { active, idNav } = this.state;
+    const targetId = e.target.id;
+    if (targetId !== idNav) {
+      this.setState({
+        active: !active,
+        idNav: targetId,
+      });
+    }
+  };
+
   render() {
     const {
-      teams, index, lang, id,
+      teams, index, lang, id, active,
     } = this.state;
     return (
-      <Router basename="/cj-3-teamwork">
-        <div className="wrapper">
-          <NavBar lang={lang[id]} />
-          <div className="main-container">
-            <Route path="/" exact render={() => <Home teams={teams} index={index} lang={lang[id]} />} />
-            <Route path="/list" render={() => <ListDirectors lang={lang[id]} />} />
-          </div>
-          <SwitchLang lang={id} onChange={this.handChange} />
+      <div className="wrapper">
+        <NavBar lang={lang[id]} active={active} onClick={this.handlerClickActive} />
+        <div className="main-container">
+          {
+            active ? <Home teams={teams} index={index} lang={lang[id]} />
+              : <ListDirectors lang={lang[id]} />}
         </div>
-      </Router>
+        <SwitchLang lang={id} onChange={this.handChange} />
+      </div>
     );
   }
 }

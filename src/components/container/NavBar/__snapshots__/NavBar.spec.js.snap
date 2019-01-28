@@ -7,23 +7,21 @@ exports[`renders correctly 1`] = `
   <nav>
     <ul>
       <li
-        className="active"
+        className="not-active"
       >
         <a
-          href="/"
+          href="#home"
           id="home"
-          onClick={[Function]}
         >
           главная
         </a>
       </li>
       <li
-        className="not-active"
+        className="active"
       >
         <a
-          href="/list"
+          href="#list"
           id="list"
-          onClick={[Function]}
         >
           список режиссеров
         </a>

@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="active"
 >
   <a
-    href="/"
+    href="#home"
     id="home"
     onClick={[Function]}
   >
