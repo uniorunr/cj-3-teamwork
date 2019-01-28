@@ -9,3 +9,7 @@
   right: 10px;
   background-color: #fff;
 }
+
+.switch-container label {
+  cursor: pointer;
+}
