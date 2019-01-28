@@ -4,10 +4,14 @@ exports[`renders correctly 1`] = `
 <div
   className="developer-item"
 >
-  <img
-    alt="dev"
-    src="img"
-  />
+  <a
+    href="https://github.com/dev"
+  >
+    <img
+      alt="dev"
+      src="img"
+    />
+  </a>
   <p>
     dev
   </p>

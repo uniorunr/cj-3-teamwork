@@ -42,10 +42,14 @@ Array [
       <div
         className="developer-item"
       >
-        <img
-          alt="a"
-          src="img1"
-        />
+        <a
+          href="https://github.com/a"
+        >
+          <img
+            alt="a"
+            src="img1"
+          />
+        </a>
         <p>
           a
         </p>
@@ -53,10 +57,14 @@ Array [
       <div
         className="developer-item"
       >
-        <img
-          alt="b"
-          src="img2"
-        />
+        <a
+          href="https://github.com/b"
+        >
+          <img
+            alt="b"
+            src="img2"
+          />
+        </a>
         <p>
           b
         </p>
