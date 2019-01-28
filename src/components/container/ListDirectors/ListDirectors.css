@@ -5,43 +5,7 @@
   justify-content: space-between;
   align-items: flex-start;
   overflow: hidden;
-}
-
-.list-container .sidebar {
-  width: 25%;
-  height: 100%;
-  overflow-y: scroll;
-}
-
-.list-container .scroll-timeline {
-  overflow-y: scroll;
-  height: 100%;
-  width: 75%;
-}
-
-.director-info-list--wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 85%;
-  margin: 5% auto 0;
-}
-
-.director-info-list-img {
-  width: 50%;
-  margin: 2%;
-}
-
-.director-info-list-img img {
-  width: 100%;
-}
-
-.director-info-list-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 3%;
-  padding: 4%;
+  transition: 0.3s;
 }
 
 h2.headline-text {

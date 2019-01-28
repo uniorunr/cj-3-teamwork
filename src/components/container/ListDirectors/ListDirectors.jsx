@@ -1,60 +1,53 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './ListDirectors.css';
-import TimeLine from './Timeline/TimeLine';
-import PhotoGallery from './PhotoGallery/PhotoGallery';
-import VideoOverlay from './VideoOverlay/VideoOverlay';
-import GeoWidget from './GeoWidget/GeoWidget';
 import SearchByList from './SearchByList/CardDirector';
+import InfoContainer from './InfoContainer/InfoContainer';
 
-const ListDirectors = ({ lang }) => {
-  const {
-    name,
-    place,
-    photo,
-    description,
-    timeline: {
-      life, work, photos, video,
-    },
-  } = lang.main.content[0];
+class ListDirectors extends Component {
+  state = {
+    show: true,
+    index: null,
+  };
 
-  const {
-    biographyH,
-    worksH,
-    photoH,
-    videoH,
-    placeH,
-    search,
-  } = lang.headlines;
+  onClick = (e) => {
+    const { show } = this.state;
+    const {
+      lang: {
+        main: { content },
+      },
+    } = this.props;
+    const { value } = e.target;
+    this.setState({
+      show: !show,
+      index: content.findIndex(a => a.name === value),
+    });
+  };
 
-  const DirectorInfo = () => (
-    <div className="director-info-list--wrapper">
-      <div className="director-info-list-img">
-        <img src={photo} alt={name} />
+  render() {
+    const { lang } = this.props;
+    const { search } = lang.headlines;
+    const { show, index } = this.state;
+    return (
+      <div className="list-container">
+        {
+          show ? (
+            <SearchByList
+              directors={lang.main.content}
+              headline={search}
+              onClick={this.onClick}
+            />
+          ) : (
+            <InfoContainer
+              director={lang.main.content[index]}
+              lang={lang}
+              onClick={this.onClick}
+            />
+          )}
       </div>
-      <div className="director-info-list-description">
-        <h2>{name}</h2>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-
-  return (
-    <div className="list-container">
-      <div className="sidebar">
-        <SearchByList directors={lang.main.content} headline={search} />
-      </div>
-      <div className="scroll-timeline">
-        <DirectorInfo />
-        <TimeLine content={life} headline={biographyH} />
-        <PhotoGallery images={photos} headline={photoH} />
-        <TimeLine content={work} headline={worksH} />
-        <VideoOverlay video={video} headline={videoH} />
-        <GeoWidget mapSource={place} name={name} headline={placeH} />
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 ListDirectors.propTypes = {
   lang: PropTypes.instanceOf(Object).isRequired,

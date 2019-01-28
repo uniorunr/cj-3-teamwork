@@ -13,21 +13,34 @@ class CardDirectors extends Component {
 
   searchUpdated = (term) => {
     this.setState({ searchTerm: term });
-  }
+  };
 
   render() {
-    const { directors, headline } = this.props;
+    const { directors, headline, onClick } = this.props;
     const { searchTerm } = this.state;
     const filterList = directors.filter(createFilter(searchTerm, KEYS_TO_FILTERS));
     return (
       <div className="container-list-directors">
-        <SearchInput placeholder={headline} className="search-input search-list-directors" onChange={this.searchUpdated} />
-        {filterList.map(elem => (
-          <div key={uniqid()} className="container-card-directors">
-            <img src={elem.photo} alt={elem.name} />
-            <h2 className="name-card-director">{elem.name}</h2>
-          </div>
-        ))}
+        <SearchInput
+          placeholder={headline}
+          className="search-input search-list-directors"
+          onChange={this.searchUpdated}
+        />
+        <div className="directors-container">
+          {filterList.map(elem => (
+            <div key={uniqid()} className="card-directors-item">
+              <img src={elem.photo} alt={elem.name} />
+              <button
+                type="submit"
+                className="name-card-director"
+                onClick={onClick}
+                value={elem.name}
+              >
+                {elem.name}
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
@@ -50,6 +63,7 @@ CardDirectors.propTypes = {
       ),
     }),
   ),
+  onClick: PropTypes.func.isRequired,
 };
 
 CardDirectors.defaultProps = {

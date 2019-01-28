@@ -24,7 +24,13 @@ class VideoOverlay extends Component {
           videoId={video[0]}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button className="video-play-button" type="button" onClick={this.openModal}>{headline}</button>
+        <button
+          className="video-play-button"
+          type="button"
+          onClick={this.openModal}
+        >
+          {headline}
+        </button>
       </div>
     );
   }
