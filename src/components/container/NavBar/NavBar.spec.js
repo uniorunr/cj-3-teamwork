@@ -1,16 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { MemoryRouter } from 'react-router-dom';
 import NavBar from './NavBar';
 import ru from '../../../config/ru.json';
 
 it('renders correctly', () => {
-  const tree = renderer
-    .create(
-      <MemoryRouter>
-        <NavBar lang={ru} />
-      </MemoryRouter>,
-    )
-    .toJSON();
+  const tree = renderer.create(<NavBar lang={ru} active onClick={() => {}} />).toJSON();
   expect(tree).toMatchSnapshot();
 });

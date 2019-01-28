@@ -1,15 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { MemoryRouter } from 'react-router-dom';
 import NavBarItem from './NavBarItem';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(
-      <MemoryRouter>
-        <NavBarItem id="home" active="active" hash="/" onClick={() => {}} name="Home" />
-      </MemoryRouter>,
-    )
+    .create(<NavBarItem id="home" active="active" onClick={() => {}} name="Home" />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
