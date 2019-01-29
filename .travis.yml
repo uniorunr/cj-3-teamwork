@@ -20,7 +20,7 @@ deploy:
   local-dir: ./dist
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github-token: $GITHUB_API_KEY  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
     branch: development
