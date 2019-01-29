@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - "7"
+
+cache: npm
+
+branches:
+  except:
+    - legacy
+    - experimental
+
+install:
+  - npm install
+
+script:
+  - npm run test
+  - npm run build
+
+deploy:
+  local-dir: ./dist
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: development
