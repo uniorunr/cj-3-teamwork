@@ -13,6 +13,7 @@
 
 .director-info-list-img img {
   width: 70%;
+  min-width: 250px;
 }
 
 .director-info-list-description {
@@ -21,4 +22,24 @@
   justify-content: space-around;
   margin: 3%;
   padding: 4%;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 740px) {
+  .director-info-list-img {
+    margin: auto;
+  }
+
+  .director-info-list--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: 5% auto 0;
+  }
+
+  .director-info-list-description {
+    text-align: center;
+  }
 }
