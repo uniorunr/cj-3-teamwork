@@ -899,6 +899,7 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .scroll-timeline .btn-close {
